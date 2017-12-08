@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Cleanobot
+//  Robots
 //
-//  Created by Pete Bennett on 31/10/2017.
+//  Created by Pete Bennett on 11/08/2017.
 //  Copyright © 2017 Pete Bennett. All rights reserved.
 //
 
@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let defaults = UserDefaults.standard
+        
+        let initialised = defaults.bool(forKey: "initialised")
+        if !initialised {
+            defaults.set(true, forKey: "initialised")
+            Initialise.run()
+        }
+ //
         return true
     }
 
@@ -41,6 +50,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return .allButUpsideDown
+    }
 }
 

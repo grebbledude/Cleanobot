@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BDEA60532389430D0045B75 /* Pods_CleanobotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF8CF9CBEA667209371A10E /* Pods_CleanobotUITests.framework */; };
+		8CF7EA9E7836320F42FEEBC9 /* Pods_Cleanobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0038457DFB0FC92A32FB2AA8 /* Pods_Cleanobot.framework */; };
+		D83D00001FA9290C00B4C0F6 /* Cleanomat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFF01FA9290C00B4C0F6 /* Cleanomat.swift */; };
+		D83D00061FA9293100B4C0F6 /* RoomTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D00021FA9293100B4C0F6 /* RoomTable.swift */; };
+		D83D00071FA9293100B4C0F6 /* FloorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D00031FA9293100B4C0F6 /* FloorTable.swift */; };
+		D83D00081FA9293100B4C0F6 /* DBConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D00041FA9293100B4C0F6 /* DBConnection.swift */; };
+		D83D00091FA9293100B4C0F6 /* DBTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D00051FA9293100B4C0F6 /* DBTables.swift */; };
+		D83D00101FA9295900B4C0F6 /* FenceNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D000B1FA9295900B4C0F6 /* FenceNormal.swift */; };
+		D83D00111FA9295900B4C0F6 /* FencePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D000C1FA9295900B4C0F6 /* FencePosition.swift */; };
+		D83D00121FA9295900B4C0F6 /* FenceElectric.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D000D1FA9295900B4C0F6 /* FenceElectric.swift */; };
+		D83D00131FA9295900B4C0F6 /* FenceDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D000E1FA9295900B4C0F6 /* FenceDoor.swift */; };
+		D83D00141FA9295900B4C0F6 /* Fence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D000F1FA9295900B4C0F6 /* Fence.swift */; };
+		D83D00211FA9298200B4C0F6 /* board.1.2.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D00161FA9298100B4C0F6 /* board.1.2.xml */; };
+		D83D00221FA9298200B4C0F6 /* board.1.3.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D00171FA9298100B4C0F6 /* board.1.3.xml */; };
+		D83D00231FA9298200B4C0F6 /* board.1.5.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D00181FA9298100B4C0F6 /* board.1.5.xml */; };
+		D83D00241FA9298200B4C0F6 /* board.1.6.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D00191FA9298100B4C0F6 /* board.1.6.xml */; };
+		D83D00251FA9298200B4C0F6 /* board.1.10.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001A1FA9298100B4C0F6 /* board.1.10.xml */; };
+		D83D00261FA9298200B4C0F6 /* board.1.4.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001B1FA9298100B4C0F6 /* board.1.4.xml */; };
+		D83D00271FA9298200B4C0F6 /* board.1.7.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001C1FA9298200B4C0F6 /* board.1.7.xml */; };
+		D83D00281FA9298200B4C0F6 /* board.1.9.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001D1FA9298200B4C0F6 /* board.1.9.xml */; };
+		D83D00291FA9298200B4C0F6 /* board.1.8.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001E1FA9298200B4C0F6 /* board.1.8.xml */; };
+		D83D002A1FA9298200B4C0F6 /* board.1.xxxx.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001F1FA9298200B4C0F6 /* board.1.xxxx.xml */; };
+		D83D002B1FA9298200B4C0F6 /* board.1.1.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D00201FA9298200B4C0F6 /* board.1.1.xml */; };
+		D83D002D1FA92A0500B4C0F6 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D002C1FA92A0400B4C0F6 /* PopUpView.swift */; };
+		D83D002F1FA92EC400B4C0F6 /* StoryItems.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83D002E1FA92EC400B4C0F6 /* StoryItems.storyboard */; };
 		D83DFF5E1FA9243300B4C0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF5D1FA9243300B4C0F6 /* AppDelegate.swift */; };
 		D83DFF601FA9243300B4C0F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF5F1FA9243300B4C0F6 /* ViewController.swift */; };
 		D83DFF631FA9243300B4C0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83DFF611FA9243300B4C0F6 /* Main.storyboard */; };
@@ -14,6 +39,64 @@
 		D83DFF681FA9243300B4C0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83DFF661FA9243300B4C0F6 /* LaunchScreen.storyboard */; };
 		D83DFF731FA9243300B4C0F6 /* CleanobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF721FA9243300B4C0F6 /* CleanobotTests.swift */; };
 		D83DFF7E1FA9243300B4C0F6 /* CleanobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF7D1FA9243300B4C0F6 /* CleanobotUITests.swift */; };
+		D83DFF8B1FA924C800B4C0F6 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83DFF8C1FA924C800B4C0F6 /* AEXML.framework */; };
+		D83DFF8D1FA924CD00B4C0F6 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83DFF8E1FA924CD00B4C0F6 /* SQLite.framework */; };
+		D83DFF9E1FA9281D00B4C0F6 /* Initialise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF8F1FA9281A00B4C0F6 /* Initialise.swift */; };
+		D83DFF9F1FA9281D00B4C0F6 /* BoardSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF901FA9281A00B4C0F6 /* BoardSquare.swift */; };
+		D83DFFA01FA9281D00B4C0F6 /* InitialPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF911FA9281A00B4C0F6 /* InitialPlayController.swift */; };
+		D83DFFA11FA9281D00B4C0F6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF921FA9281B00B4C0F6 /* SplashViewController.swift */; };
+		D83DFFA21FA9281D00B4C0F6 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF931FA9281B00B4C0F6 /* Board.swift */; };
+		D83DFFA31FA9281D00B4C0F6 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF941FA9281B00B4C0F6 /* Debug.swift */; };
+		D83DFFA41FA9281D00B4C0F6 /* TurnsXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF951FA9281B00B4C0F6 /* TurnsXML.swift */; };
+		D83DFFA51FA9281D00B4C0F6 /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF961FA9281B00B4C0F6 /* BoardController.swift */; };
+		D83DFFA61FA9281D00B4C0F6 /* PlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF971FA9281C00B4C0F6 /* PlayController.swift */; };
+		D83DFFA71FA9281D00B4C0F6 /* ListFloorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF981FA9281C00B4C0F6 /* ListFloorController.swift */; };
+		D83DFFA81FA9281D00B4C0F6 /* ListFloorTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF991FA9281C00B4C0F6 /* ListFloorTableController.swift */; };
+		D83DFFA91FA9281D00B4C0F6 /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF9A1FA9281C00B4C0F6 /* PortraitViewController.swift */; };
+		D83DFFAA1FA9281D00B4C0F6 /* SmallBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF9B1FA9281C00B4C0F6 /* SmallBoardController.swift */; };
+		D83DFFAB1FA9281D00B4C0F6 /* SetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF9C1FA9281D00B4C0F6 /* SetupController.swift */; };
+		D83DFFAC1FA9281D00B4C0F6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFF9D1FA9281D00B4C0F6 /* MenuViewController.swift */; };
+		D83DFFBA1FA928D900B4C0F6 /* StoryPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFB31FA928D900B4C0F6 /* StoryPageController.swift */; };
+		D83DFFBB1FA928D900B4C0F6 /* WallEmbedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFB41FA928D900B4C0F6 /* WallEmbedController.swift */; };
+		D83DFFBC1FA928DA00B4C0F6 /* HelpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFB51FA928D900B4C0F6 /* HelpPageViewController.swift */; };
+		D83DFFBD1FA928DA00B4C0F6 /* HelpItemPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFB61FA928D900B4C0F6 /* HelpItemPageController.swift */; };
+		D83DFFBE1FA928DA00B4C0F6 /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFB71FA928D900B4C0F6 /* StoryController.swift */; };
+		D83DFFBF1FA928DA00B4C0F6 /* HelpPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFB81FA928D900B4C0F6 /* HelpPlayController.swift */; };
+		D83DFFC01FA928DA00B4C0F6 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFB91FA928D900B4C0F6 /* HelpViewController.swift */; };
+		D83DFFCC1FA928EB00B4C0F6 /* ElectrifiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC11FA928EA00B4C0F6 /* ElectrifiedView.swift */; };
+		D83DFFCD1FA928EB00B4C0F6 /* BroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC21FA928EA00B4C0F6 /* BroomView.swift */; };
+		D83DFFCE1FA928EB00B4C0F6 /* DamageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC31FA928EA00B4C0F6 /* DamageView.swift */; };
+		D83DFFCF1FA928EB00B4C0F6 /* FinishedOKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC41FA928EA00B4C0F6 /* FinishedOKView.swift */; };
+		D83DFFD01FA928EB00B4C0F6 /* FlashImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC51FA928EA00B4C0F6 /* FlashImageView.swift */; };
+		D83DFFD11FA928EB00B4C0F6 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC61FA928EA00B4C0F6 /* PowerView.swift */; };
+		D83DFFD21FA928EB00B4C0F6 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC71FA928EA00B4C0F6 /* NumberView.swift */; };
+		D83DFFD31FA928EB00B4C0F6 /* SplashToaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC81FA928EA00B4C0F6 /* SplashToaster.swift */; };
+		D83DFFD41FA928EB00B4C0F6 /* FenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFC91FA928EB00B4C0F6 /* FenceView.swift */; };
+		D83DFFD51FA928EB00B4C0F6 /* FinishedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFCA1FA928EB00B4C0F6 /* FinishedImageView.swift */; };
+		D83DFFD61FA928EB00B4C0F6 /* ExplodeRubbishFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFCB1FA928EB00B4C0F6 /* ExplodeRubbishFinishView.swift */; };
+		D83DFFDC1FA928FC00B4C0F6 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFD71FA928FB00B4C0F6 /* LinkedList.swift */; };
+		D83DFFDD1FA928FC00B4C0F6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFD81FA928FC00B4C0F6 /* Extensions.swift */; };
+		D83DFFDE1FA928FC00B4C0F6 /* C.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFD91FA928FC00B4C0F6 /* C.swift */; };
+		D83DFFDF1FA928FC00B4C0F6 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFDA1FA928FC00B4C0F6 /* Node.swift */; };
+		D83DFFE01FA928FC00B4C0F6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFDB1FA928FC00B4C0F6 /* Queue.swift */; };
+		D83DFFF11FA9290C00B4C0F6 /* ExitRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE11FA9290A00B4C0F6 /* ExitRobot.swift */; };
+		D83DFFF21FA9290C00B4C0F6 /* InstructableRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE21FA9290A00B4C0F6 /* InstructableRobot.swift */; };
+		D83DFFF31FA9290C00B4C0F6 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE31FA9290B00B4C0F6 /* Robot.swift */; };
+		D83DFFF41FA9290C00B4C0F6 /* GreenMouseRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE41FA9290B00B4C0F6 /* GreenMouseRobot.swift */; };
+		D83DFFF51FA9290C00B4C0F6 /* InvisibleRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE51FA9290B00B4C0F6 /* InvisibleRobot.swift */; };
+		D83DFFF61FA9290C00B4C0F6 /* OokRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE61FA9290B00B4C0F6 /* OokRobot.swift */; };
+		D83DFFF71FA9290C00B4C0F6 /* SetupRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE71FA9290B00B4C0F6 /* SetupRobot.swift */; };
+		D83DFFF81FA9290C00B4C0F6 /* DeadInstructable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE81FA9290B00B4C0F6 /* DeadInstructable.swift */; };
+		D83DFFF91FA9290C00B4C0F6 /* XMLCrawler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE91FA9290B00B4C0F6 /* XMLCrawler.swift */; };
+		D83DFFFA1FA9290C00B4C0F6 /* PowerSwitchRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEA1FA9290B00B4C0F6 /* PowerSwitchRobot.swift */; };
+		D83DFFFB1FA9290C00B4C0F6 /* DoorControlRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobot.swift */; };
+		D83DFFFC1FA9290C00B4C0F6 /* SweeperRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEC1FA9290B00B4C0F6 /* SweeperRobot.swift */; };
+		D83DFFFD1FA9290C00B4C0F6 /* LaundryRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFED1FA9290B00B4C0F6 /* LaundryRobot.swift */; };
+		D83DFFFE1FA9290C00B4C0F6 /* MouseRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEE1FA9290C00B4C0F6 /* MouseRobot.swift */; };
+		D83DFFFF1FA9290C00B4C0F6 /* RubbishRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEF1FA9290C00B4C0F6 /* RubbishRobot.swift */; };
+		D8B0B2621FB63698003AA69E /* testing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B0B2611FB63698003AA69E /* testing.storyboard */; };
+		D8B0B2641FB63738003AA69E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0B2631FB63738003AA69E /* TestViewController.swift */; };
+		E0CFA7E08B27FDFFAB885DB5 /* Pods_CleanobotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BE005582FBC8BCED50166B /* Pods_CleanobotTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +117,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0038457DFB0FC92A32FB2AA8 /* Pods_Cleanobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleanobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BE005582FBC8BCED50166B /* Pods_CleanobotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanobotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DCB4BA8D75AB62F33D6934 /* Pods-Cleanobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanobot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanobot/Pods-Cleanobot.release.xcconfig"; sourceTree = "<group>"; };
+		6EF8CF9CBEA667209371A10E /* Pods_CleanobotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanobotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700902B4F674614F38D84BB0 /* Pods-Cleanobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanobot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanobot/Pods-Cleanobot.debug.xcconfig"; sourceTree = "<group>"; };
+		7A9F11807AD545C6BD1ED7DB /* Pods-CleanobotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5B8A40C5ADE58D991264470 /* Pods-CleanobotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D48134948FDBF0129A27B9 /* Pods-CleanobotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D83D00021FA9293100B4C0F6 /* RoomTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomTable.swift; sourceTree = "<group>"; };
+		D83D00031FA9293100B4C0F6 /* FloorTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorTable.swift; sourceTree = "<group>"; };
+		D83D00041FA9293100B4C0F6 /* DBConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBConnection.swift; sourceTree = "<group>"; };
+		D83D00051FA9293100B4C0F6 /* DBTables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBTables.swift; sourceTree = "<group>"; };
+		D83D000B1FA9295900B4C0F6 /* FenceNormal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FenceNormal.swift; path = Fences/FenceNormal.swift; sourceTree = "<group>"; };
+		D83D000C1FA9295900B4C0F6 /* FencePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FencePosition.swift; path = Fences/FencePosition.swift; sourceTree = "<group>"; };
+		D83D000D1FA9295900B4C0F6 /* FenceElectric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FenceElectric.swift; path = Fences/FenceElectric.swift; sourceTree = "<group>"; };
+		D83D000E1FA9295900B4C0F6 /* FenceDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FenceDoor.swift; path = Fences/FenceDoor.swift; sourceTree = "<group>"; };
+		D83D000F1FA9295900B4C0F6 /* Fence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fence.swift; path = Fences/Fence.swift; sourceTree = "<group>"; };
+		D83D00161FA9298100B4C0F6 /* board.1.2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.2.xml; path = Boards/board.1.2.xml; sourceTree = "<group>"; };
+		D83D00171FA9298100B4C0F6 /* board.1.3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.3.xml; path = Boards/board.1.3.xml; sourceTree = "<group>"; };
+		D83D00181FA9298100B4C0F6 /* board.1.5.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.5.xml; path = Boards/board.1.5.xml; sourceTree = "<group>"; };
+		D83D00191FA9298100B4C0F6 /* board.1.6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.6.xml; path = Boards/board.1.6.xml; sourceTree = "<group>"; };
+		D83D001A1FA9298100B4C0F6 /* board.1.10.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.10.xml; path = Boards/board.1.10.xml; sourceTree = "<group>"; };
+		D83D001B1FA9298100B4C0F6 /* board.1.4.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.4.xml; path = Boards/board.1.4.xml; sourceTree = "<group>"; };
+		D83D001C1FA9298200B4C0F6 /* board.1.7.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.7.xml; path = Boards/board.1.7.xml; sourceTree = "<group>"; };
+		D83D001D1FA9298200B4C0F6 /* board.1.9.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.9.xml; path = Boards/board.1.9.xml; sourceTree = "<group>"; };
+		D83D001E1FA9298200B4C0F6 /* board.1.8.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.8.xml; path = Boards/board.1.8.xml; sourceTree = "<group>"; };
+		D83D001F1FA9298200B4C0F6 /* board.1.xxxx.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.xxxx.xml; path = Boards/board.1.xxxx.xml; sourceTree = "<group>"; };
+		D83D00201FA9298200B4C0F6 /* board.1.1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.1.xml; path = Boards/board.1.1.xml; sourceTree = "<group>"; };
+		D83D002C1FA92A0400B4C0F6 /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopUpView.swift; path = Views/PopUpView.swift; sourceTree = "<group>"; };
+		D83D002E1FA92EC400B4C0F6 /* StoryItems.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StoryItems.storyboard; path = Help/StoryItems.storyboard; sourceTree = "<group>"; };
 		D83DFF5A1FA9243300B4C0F6 /* Cleanobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleanobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83DFF5D1FA9243300B4C0F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D83DFF5F1FA9243300B4C0F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +160,65 @@
 		D83DFF791FA9243300B4C0F6 /* CleanobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83DFF7D1FA9243300B4C0F6 /* CleanobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanobotUITests.swift; sourceTree = "<group>"; };
 		D83DFF7F1FA9243300B4C0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83DFF8C1FA924C800B4C0F6 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83DFF8E1FA924CD00B4C0F6 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83DFF8F1FA9281A00B4C0F6 /* Initialise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initialise.swift; sourceTree = "<group>"; };
+		D83DFF901FA9281A00B4C0F6 /* BoardSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardSquare.swift; sourceTree = "<group>"; };
+		D83DFF911FA9281A00B4C0F6 /* InitialPlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialPlayController.swift; sourceTree = "<group>"; };
+		D83DFF921FA9281B00B4C0F6 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		D83DFF931FA9281B00B4C0F6 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		D83DFF941FA9281B00B4C0F6 /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		D83DFF951FA9281B00B4C0F6 /* TurnsXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnsXML.swift; sourceTree = "<group>"; };
+		D83DFF961FA9281B00B4C0F6 /* BoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
+		D83DFF971FA9281C00B4C0F6 /* PlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayController.swift; sourceTree = "<group>"; };
+		D83DFF981FA9281C00B4C0F6 /* ListFloorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFloorController.swift; sourceTree = "<group>"; };
+		D83DFF991FA9281C00B4C0F6 /* ListFloorTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFloorTableController.swift; sourceTree = "<group>"; };
+		D83DFF9A1FA9281C00B4C0F6 /* PortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitViewController.swift; sourceTree = "<group>"; };
+		D83DFF9B1FA9281C00B4C0F6 /* SmallBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallBoardController.swift; sourceTree = "<group>"; };
+		D83DFF9C1FA9281D00B4C0F6 /* SetupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupController.swift; sourceTree = "<group>"; };
+		D83DFF9D1FA9281D00B4C0F6 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D83DFFB31FA928D900B4C0F6 /* StoryPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryPageController.swift; path = Help/StoryPageController.swift; sourceTree = "<group>"; };
+		D83DFFB41FA928D900B4C0F6 /* WallEmbedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WallEmbedController.swift; path = Help/WallEmbedController.swift; sourceTree = "<group>"; };
+		D83DFFB51FA928D900B4C0F6 /* HelpPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpPageViewController.swift; path = Help/HelpPageViewController.swift; sourceTree = "<group>"; };
+		D83DFFB61FA928D900B4C0F6 /* HelpItemPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpItemPageController.swift; path = Help/HelpItemPageController.swift; sourceTree = "<group>"; };
+		D83DFFB71FA928D900B4C0F6 /* StoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryController.swift; path = Help/StoryController.swift; sourceTree = "<group>"; };
+		D83DFFB81FA928D900B4C0F6 /* HelpPlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpPlayController.swift; path = Help/HelpPlayController.swift; sourceTree = "<group>"; };
+		D83DFFB91FA928D900B4C0F6 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpViewController.swift; path = Help/HelpViewController.swift; sourceTree = "<group>"; };
+		D83DFFC11FA928EA00B4C0F6 /* ElectrifiedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ElectrifiedView.swift; path = Views/ElectrifiedView.swift; sourceTree = "<group>"; };
+		D83DFFC21FA928EA00B4C0F6 /* BroomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BroomView.swift; path = Views/BroomView.swift; sourceTree = "<group>"; };
+		D83DFFC31FA928EA00B4C0F6 /* DamageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DamageView.swift; path = Views/DamageView.swift; sourceTree = "<group>"; };
+		D83DFFC41FA928EA00B4C0F6 /* FinishedOKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinishedOKView.swift; path = Views/FinishedOKView.swift; sourceTree = "<group>"; };
+		D83DFFC51FA928EA00B4C0F6 /* FlashImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashImageView.swift; path = Views/FlashImageView.swift; sourceTree = "<group>"; };
+		D83DFFC61FA928EA00B4C0F6 /* PowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerView.swift; path = Views/PowerView.swift; sourceTree = "<group>"; };
+		D83DFFC71FA928EA00B4C0F6 /* NumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberView.swift; path = Views/NumberView.swift; sourceTree = "<group>"; };
+		D83DFFC81FA928EA00B4C0F6 /* SplashToaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashToaster.swift; path = Views/SplashToaster.swift; sourceTree = "<group>"; };
+		D83DFFC91FA928EB00B4C0F6 /* FenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FenceView.swift; path = Views/FenceView.swift; sourceTree = "<group>"; };
+		D83DFFCA1FA928EB00B4C0F6 /* FinishedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinishedImageView.swift; path = Views/FinishedImageView.swift; sourceTree = "<group>"; };
+		D83DFFCB1FA928EB00B4C0F6 /* ExplodeRubbishFinishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExplodeRubbishFinishView.swift; path = Views/ExplodeRubbishFinishView.swift; sourceTree = "<group>"; };
+		D83DFFD71FA928FB00B4C0F6 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = Extras/LinkedList.swift; sourceTree = "<group>"; };
+		D83DFFD81FA928FC00B4C0F6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extras/Extensions.swift; sourceTree = "<group>"; };
+		D83DFFD91FA928FC00B4C0F6 /* C.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = C.swift; path = Extras/C.swift; sourceTree = "<group>"; };
+		D83DFFDA1FA928FC00B4C0F6 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Extras/Node.swift; sourceTree = "<group>"; };
+		D83DFFDB1FA928FC00B4C0F6 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Extras/Queue.swift; sourceTree = "<group>"; };
+		D83DFFE11FA9290A00B4C0F6 /* ExitRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExitRobot.swift; path = Robots/ExitRobot.swift; sourceTree = "<group>"; };
+		D83DFFE21FA9290A00B4C0F6 /* InstructableRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstructableRobot.swift; path = Robots/InstructableRobot.swift; sourceTree = "<group>"; };
+		D83DFFE31FA9290B00B4C0F6 /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Robot.swift; path = Robots/Robot.swift; sourceTree = "<group>"; };
+		D83DFFE41FA9290B00B4C0F6 /* GreenMouseRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreenMouseRobot.swift; path = Robots/GreenMouseRobot.swift; sourceTree = "<group>"; };
+		D83DFFE51FA9290B00B4C0F6 /* InvisibleRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InvisibleRobot.swift; path = Robots/InvisibleRobot.swift; sourceTree = "<group>"; };
+		D83DFFE61FA9290B00B4C0F6 /* OokRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OokRobot.swift; path = Robots/OokRobot.swift; sourceTree = "<group>"; };
+		D83DFFE71FA9290B00B4C0F6 /* SetupRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetupRobot.swift; path = Robots/SetupRobot.swift; sourceTree = "<group>"; };
+		D83DFFE81FA9290B00B4C0F6 /* DeadInstructable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeadInstructable.swift; path = Robots/DeadInstructable.swift; sourceTree = "<group>"; };
+		D83DFFE91FA9290B00B4C0F6 /* XMLCrawler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XMLCrawler.swift; path = Robots/XMLCrawler.swift; sourceTree = "<group>"; };
+		D83DFFEA1FA9290B00B4C0F6 /* PowerSwitchRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSwitchRobot.swift; path = Robots/PowerSwitchRobot.swift; sourceTree = "<group>"; };
+		D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoorControlRobot.swift; path = Robots/DoorControlRobot.swift; sourceTree = "<group>"; };
+		D83DFFEC1FA9290B00B4C0F6 /* SweeperRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweeperRobot.swift; path = Robots/SweeperRobot.swift; sourceTree = "<group>"; };
+		D83DFFED1FA9290B00B4C0F6 /* LaundryRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaundryRobot.swift; path = Robots/LaundryRobot.swift; sourceTree = "<group>"; };
+		D83DFFEE1FA9290C00B4C0F6 /* MouseRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MouseRobot.swift; path = Robots/MouseRobot.swift; sourceTree = "<group>"; };
+		D83DFFEF1FA9290C00B4C0F6 /* RubbishRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RubbishRobot.swift; path = Robots/RubbishRobot.swift; sourceTree = "<group>"; };
+		D83DFFF01FA9290C00B4C0F6 /* Cleanomat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cleanomat.swift; path = Robots/Cleanomat.swift; sourceTree = "<group>"; };
+		D8B0B2611FB63698003AA69E /* testing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = testing.storyboard; path = deletethem/testing.storyboard; sourceTree = "<group>"; };
+		D8B0B2631FB63738003AA69E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = deletethem/TestViewController.swift; sourceTree = "<group>"; };
+		F71292FF1BF605D591B7F72B /* Pods-CleanobotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +226,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83DFF8D1FA924CD00B4C0F6 /* SQLite.framework in Frameworks */,
+				D83DFF8B1FA924C800B4C0F6 /* AEXML.framework in Frameworks */,
+				8CF7EA9E7836320F42FEEBC9 /* Pods_Cleanobot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CFA7E08B27FDFFAB885DB5 /* Pods_CleanobotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +244,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BDEA60532389430D0045B75 /* Pods_CleanobotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B6E2EAA8A5736594F630ACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D83DFF8E1FA924CD00B4C0F6 /* SQLite.framework */,
+				D83DFF8C1FA924C800B4C0F6 /* AEXML.framework */,
+				0038457DFB0FC92A32FB2AA8 /* Pods_Cleanobot.framework */,
+				58BE005582FBC8BCED50166B /* Pods_CleanobotTests.framework */,
+				6EF8CF9CBEA667209371A10E /* Pods_CleanobotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D83D00011FA9292200B4C0F6 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				D83D00041FA9293100B4C0F6 /* DBConnection.swift */,
+				D83D00051FA9293100B4C0F6 /* DBTables.swift */,
+				D83D00031FA9293100B4C0F6 /* FloorTable.swift */,
+				D83D00021FA9293100B4C0F6 /* RoomTable.swift */,
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		D83D000A1FA9294B00B4C0F6 /* Fences */ = {
+			isa = PBXGroup;
+			children = (
+				D83D000F1FA9295900B4C0F6 /* Fence.swift */,
+				D83D000E1FA9295900B4C0F6 /* FenceDoor.swift */,
+				D83D000D1FA9295900B4C0F6 /* FenceElectric.swift */,
+				D83D000B1FA9295900B4C0F6 /* FenceNormal.swift */,
+				D83D000C1FA9295900B4C0F6 /* FencePosition.swift */,
+			);
+			name = Fences;
+			sourceTree = "<group>";
+		};
+		D83D00151FA9297400B4C0F6 /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+				D83D00201FA9298200B4C0F6 /* board.1.1.xml */,
+				D83D00161FA9298100B4C0F6 /* board.1.2.xml */,
+				D83D00171FA9298100B4C0F6 /* board.1.3.xml */,
+				D83D001B1FA9298100B4C0F6 /* board.1.4.xml */,
+				D83D00181FA9298100B4C0F6 /* board.1.5.xml */,
+				D83D00191FA9298100B4C0F6 /* board.1.6.xml */,
+				D83D001C1FA9298200B4C0F6 /* board.1.7.xml */,
+				D83D001E1FA9298200B4C0F6 /* board.1.8.xml */,
+				D83D001D1FA9298200B4C0F6 /* board.1.9.xml */,
+				D83D001A1FA9298100B4C0F6 /* board.1.10.xml */,
+				D83D001F1FA9298200B4C0F6 /* board.1.xxxx.xml */,
+			);
+			name = Boards;
+			sourceTree = "<group>";
+		};
 		D83DFF511FA9243300B4C0F6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +311,8 @@
 				D83DFF711FA9243300B4C0F6 /* CleanobotTests */,
 				D83DFF7C1FA9243300B4C0F6 /* CleanobotUITests */,
 				D83DFF5B1FA9243300B4C0F6 /* Products */,
+				F3014A1D3CB55007909427A6 /* Pods */,
+				4B6E2EAA8A5736594F630ACD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +329,15 @@
 		D83DFF5C1FA9243300B4C0F6 /* Cleanobot */ = {
 			isa = PBXGroup;
 			children = (
+				D8B0B2601FB63662003AA69E /* Deletethem */,
+				D83D00151FA9297400B4C0F6 /* Boards */,
+				D83D000A1FA9294B00B4C0F6 /* Fences */,
+				D83D00011FA9292200B4C0F6 /* Tables */,
+				D83DFFB21FA928C200B4C0F6 /* Help */,
+				D83DFFB11FA928B400B4C0F6 /* Views */,
+				D83DFFB01FA928A800B4C0F6 /* Extras */,
+				D83DFFAF1FA9289B00B4C0F6 /* Robots */,
+				D83DFFAE1FA9288000B4C0F6 /* General */,
 				D83DFF5D1FA9243300B4C0F6 /* AppDelegate.swift */,
 				D83DFF5F1FA9243300B4C0F6 /* ViewController.swift */,
 				D83DFF611FA9243300B4C0F6 /* Main.storyboard */,
@@ -125,6 +366,119 @@
 			path = CleanobotUITests;
 			sourceTree = "<group>";
 		};
+		D83DFFAE1FA9288000B4C0F6 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				D83DFF931FA9281B00B4C0F6 /* Board.swift */,
+				D83DFF961FA9281B00B4C0F6 /* BoardController.swift */,
+				D83DFF901FA9281A00B4C0F6 /* BoardSquare.swift */,
+				D83DFF941FA9281B00B4C0F6 /* Debug.swift */,
+				D83DFF8F1FA9281A00B4C0F6 /* Initialise.swift */,
+				D83DFF911FA9281A00B4C0F6 /* InitialPlayController.swift */,
+				D83DFF981FA9281C00B4C0F6 /* ListFloorController.swift */,
+				D83DFF991FA9281C00B4C0F6 /* ListFloorTableController.swift */,
+				D83DFF9D1FA9281D00B4C0F6 /* MenuViewController.swift */,
+				D83DFF971FA9281C00B4C0F6 /* PlayController.swift */,
+				D83DFF9A1FA9281C00B4C0F6 /* PortraitViewController.swift */,
+				D83DFF9C1FA9281D00B4C0F6 /* SetupController.swift */,
+				D83DFF9B1FA9281C00B4C0F6 /* SmallBoardController.swift */,
+				D83DFF921FA9281B00B4C0F6 /* SplashViewController.swift */,
+				D83DFF951FA9281B00B4C0F6 /* TurnsXML.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		D83DFFAF1FA9289B00B4C0F6 /* Robots */ = {
+			isa = PBXGroup;
+			children = (
+				D83DFFF01FA9290C00B4C0F6 /* Cleanomat.swift */,
+				D83DFFE81FA9290B00B4C0F6 /* DeadInstructable.swift */,
+				D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobot.swift */,
+				D83DFFE11FA9290A00B4C0F6 /* ExitRobot.swift */,
+				D83DFFE41FA9290B00B4C0F6 /* GreenMouseRobot.swift */,
+				D83DFFE21FA9290A00B4C0F6 /* InstructableRobot.swift */,
+				D83DFFE51FA9290B00B4C0F6 /* InvisibleRobot.swift */,
+				D83DFFED1FA9290B00B4C0F6 /* LaundryRobot.swift */,
+				D83DFFEE1FA9290C00B4C0F6 /* MouseRobot.swift */,
+				D83DFFE61FA9290B00B4C0F6 /* OokRobot.swift */,
+				D83DFFEA1FA9290B00B4C0F6 /* PowerSwitchRobot.swift */,
+				D83DFFE31FA9290B00B4C0F6 /* Robot.swift */,
+				D83DFFEF1FA9290C00B4C0F6 /* RubbishRobot.swift */,
+				D83DFFE71FA9290B00B4C0F6 /* SetupRobot.swift */,
+				D83DFFEC1FA9290B00B4C0F6 /* SweeperRobot.swift */,
+				D83DFFE91FA9290B00B4C0F6 /* XMLCrawler.swift */,
+			);
+			name = Robots;
+			sourceTree = "<group>";
+		};
+		D83DFFB01FA928A800B4C0F6 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				D83DFFD91FA928FC00B4C0F6 /* C.swift */,
+				D83DFFD81FA928FC00B4C0F6 /* Extensions.swift */,
+				D83DFFD71FA928FB00B4C0F6 /* LinkedList.swift */,
+				D83DFFDA1FA928FC00B4C0F6 /* Node.swift */,
+				D83DFFDB1FA928FC00B4C0F6 /* Queue.swift */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		D83DFFB11FA928B400B4C0F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D83D002C1FA92A0400B4C0F6 /* PopUpView.swift */,
+				D83DFFC21FA928EA00B4C0F6 /* BroomView.swift */,
+				D83DFFC31FA928EA00B4C0F6 /* DamageView.swift */,
+				D83DFFC11FA928EA00B4C0F6 /* ElectrifiedView.swift */,
+				D83DFFCB1FA928EB00B4C0F6 /* ExplodeRubbishFinishView.swift */,
+				D83DFFC91FA928EB00B4C0F6 /* FenceView.swift */,
+				D83DFFCA1FA928EB00B4C0F6 /* FinishedImageView.swift */,
+				D83DFFC41FA928EA00B4C0F6 /* FinishedOKView.swift */,
+				D83DFFC51FA928EA00B4C0F6 /* FlashImageView.swift */,
+				D83DFFC71FA928EA00B4C0F6 /* NumberView.swift */,
+				D83DFFC61FA928EA00B4C0F6 /* PowerView.swift */,
+				D83DFFC81FA928EA00B4C0F6 /* SplashToaster.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D83DFFB21FA928C200B4C0F6 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				D83D002E1FA92EC400B4C0F6 /* StoryItems.storyboard */,
+				D83DFFB61FA928D900B4C0F6 /* HelpItemPageController.swift */,
+				D83DFFB51FA928D900B4C0F6 /* HelpPageViewController.swift */,
+				D83DFFB81FA928D900B4C0F6 /* HelpPlayController.swift */,
+				D83DFFB91FA928D900B4C0F6 /* HelpViewController.swift */,
+				D83DFFB71FA928D900B4C0F6 /* StoryController.swift */,
+				D83DFFB31FA928D900B4C0F6 /* StoryPageController.swift */,
+				D83DFFB41FA928D900B4C0F6 /* WallEmbedController.swift */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		D8B0B2601FB63662003AA69E /* Deletethem */ = {
+			isa = PBXGroup;
+			children = (
+				D8B0B2611FB63698003AA69E /* testing.storyboard */,
+				D8B0B2631FB63738003AA69E /* TestViewController.swift */,
+			);
+			name = Deletethem;
+			sourceTree = "<group>";
+		};
+		F3014A1D3CB55007909427A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				700902B4F674614F38D84BB0 /* Pods-Cleanobot.debug.xcconfig */,
+				64DCB4BA8D75AB62F33D6934 /* Pods-Cleanobot.release.xcconfig */,
+				D3D48134948FDBF0129A27B9 /* Pods-CleanobotTests.debug.xcconfig */,
+				F71292FF1BF605D591B7F72B /* Pods-CleanobotTests.release.xcconfig */,
+				A5B8A40C5ADE58D991264470 /* Pods-CleanobotUITests.debug.xcconfig */,
+				7A9F11807AD545C6BD1ED7DB /* Pods-CleanobotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +486,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D83DFF821FA9243300B4C0F6 /* Build configuration list for PBXNativeTarget "Cleanobot" */;
 			buildPhases = (
+				85617174E17930B3CAA3BF56 /* [CP] Check Pods Manifest.lock */,
 				D83DFF561FA9243300B4C0F6 /* Sources */,
 				D83DFF571FA9243300B4C0F6 /* Frameworks */,
 				D83DFF581FA9243300B4C0F6 /* Resources */,
+				C03F21BB7E089EF73E5332BF /* [CP] Embed Pods Frameworks */,
+				447EA037C28C206F2D7F0F7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +506,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D83DFF851FA9243300B4C0F6 /* Build configuration list for PBXNativeTarget "CleanobotTests" */;
 			buildPhases = (
+				D2D0301FC9A743A3B6476888 /* [CP] Check Pods Manifest.lock */,
 				D83DFF6A1FA9243300B4C0F6 /* Sources */,
 				D83DFF6B1FA9243300B4C0F6 /* Frameworks */,
 				D83DFF6C1FA9243300B4C0F6 /* Resources */,
+				E02726535064C4FCA7CA575B /* [CP] Embed Pods Frameworks */,
+				96CF53062E341B8118291B20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +527,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D83DFF881FA9243300B4C0F6 /* Build configuration list for PBXNativeTarget "CleanobotUITests" */;
 			buildPhases = (
+				4053E96398FF965712D4AB1E /* [CP] Check Pods Manifest.lock */,
 				D83DFF751FA9243300B4C0F6 /* Sources */,
 				D83DFF761FA9243300B4C0F6 /* Frameworks */,
 				D83DFF771FA9243300B4C0F6 /* Resources */,
+				61992DDD8286F4996794DBFE /* [CP] Embed Pods Frameworks */,
+				3AB17848FE4839ABB494AE74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +595,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83D00271FA9298200B4C0F6 /* board.1.7.xml in Resources */,
+				D83D00241FA9298200B4C0F6 /* board.1.6.xml in Resources */,
+				D83D00281FA9298200B4C0F6 /* board.1.9.xml in Resources */,
 				D83DFF681FA9243300B4C0F6 /* LaunchScreen.storyboard in Resources */,
+				D83D002F1FA92EC400B4C0F6 /* StoryItems.storyboard in Resources */,
+				D83D00261FA9298200B4C0F6 /* board.1.4.xml in Resources */,
+				D83D00291FA9298200B4C0F6 /* board.1.8.xml in Resources */,
+				D8B0B2621FB63698003AA69E /* testing.storyboard in Resources */,
+				D83D002A1FA9298200B4C0F6 /* board.1.xxxx.xml in Resources */,
 				D83DFF651FA9243300B4C0F6 /* Assets.xcassets in Resources */,
+				D83D00251FA9298200B4C0F6 /* board.1.10.xml in Resources */,
+				D83D00231FA9298200B4C0F6 /* board.1.5.xml in Resources */,
 				D83DFF631FA9243300B4C0F6 /* Main.storyboard in Resources */,
+				D83D00221FA9298200B4C0F6 /* board.1.3.xml in Resources */,
+				D83D002B1FA9298200B4C0F6 /* board.1.1.xml in Resources */,
+				D83D00211FA9298200B4C0F6 /* board.1.2.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +630,230 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AB17848FE4839ABB494AE74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4053E96398FF965712D4AB1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanobotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		447EA037C28C206F2D7F0F7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cleanobot/Pods-Cleanobot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61992DDD8286F4996794DBFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85617174E17930B3CAA3BF56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cleanobot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96CF53062E341B8118291B20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03F21BB7E089EF73E5332BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cleanobot/Pods-Cleanobot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cleanobot/Pods-Cleanobot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D0301FC9A743A3B6476888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanobotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E02726535064C4FCA7CA575B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D83DFF561FA9243300B4C0F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D83DFF601FA9243300B4C0F6 /* ViewController.swift in Sources */,
+				D83DFFF51FA9290C00B4C0F6 /* InvisibleRobot.swift in Sources */,
+				D83DFFA61FA9281D00B4C0F6 /* PlayController.swift in Sources */,
+				D83DFFCC1FA928EB00B4C0F6 /* ElectrifiedView.swift in Sources */,
+				D83DFFF61FA9290C00B4C0F6 /* OokRobot.swift in Sources */,
+				D83DFFA71FA9281D00B4C0F6 /* ListFloorController.swift in Sources */,
+				D83D00121FA9295900B4C0F6 /* FenceElectric.swift in Sources */,
+				D83DFFF11FA9290C00B4C0F6 /* ExitRobot.swift in Sources */,
+				D83DFF9F1FA9281D00B4C0F6 /* BoardSquare.swift in Sources */,
+				D83DFFCE1FA928EB00B4C0F6 /* DamageView.swift in Sources */,
+				D83DFFCF1FA928EB00B4C0F6 /* FinishedOKView.swift in Sources */,
+				D83DFFA01FA9281D00B4C0F6 /* InitialPlayController.swift in Sources */,
+				D83DFFAB1FA9281D00B4C0F6 /* SetupController.swift in Sources */,
+				D83DFFBA1FA928D900B4C0F6 /* StoryPageController.swift in Sources */,
+				D83DFFFB1FA9290C00B4C0F6 /* DoorControlRobot.swift in Sources */,
+				D83DFFFC1FA9290C00B4C0F6 /* SweeperRobot.swift in Sources */,
+				D8B0B2641FB63738003AA69E /* TestViewController.swift in Sources */,
+				D83DFFD21FA928EB00B4C0F6 /* NumberView.swift in Sources */,
+				D83DFFF41FA9290C00B4C0F6 /* GreenMouseRobot.swift in Sources */,
+				D83DFFA11FA9281D00B4C0F6 /* SplashViewController.swift in Sources */,
+				D83DFFF31FA9290C00B4C0F6 /* Robot.swift in Sources */,
+				D83DFFA21FA9281D00B4C0F6 /* Board.swift in Sources */,
+				D83DFFA31FA9281D00B4C0F6 /* Debug.swift in Sources */,
+				D83DFFDD1FA928FC00B4C0F6 /* Extensions.swift in Sources */,
+				D83DFFA51FA9281D00B4C0F6 /* BoardController.swift in Sources */,
+				D83DFFA41FA9281D00B4C0F6 /* TurnsXML.swift in Sources */,
+				D83DFFBD1FA928DA00B4C0F6 /* HelpItemPageController.swift in Sources */,
+				D83DFFDF1FA928FC00B4C0F6 /* Node.swift in Sources */,
+				D83D00061FA9293100B4C0F6 /* RoomTable.swift in Sources */,
+				D83DFFBE1FA928DA00B4C0F6 /* StoryController.swift in Sources */,
+				D83DFFFD1FA9290C00B4C0F6 /* LaundryRobot.swift in Sources */,
+				D83DFFDC1FA928FC00B4C0F6 /* LinkedList.swift in Sources */,
+				D83D00131FA9295900B4C0F6 /* FenceDoor.swift in Sources */,
+				D83D00091FA9293100B4C0F6 /* DBTables.swift in Sources */,
+				D83D002D1FA92A0500B4C0F6 /* PopUpView.swift in Sources */,
+				D83DFFBF1FA928DA00B4C0F6 /* HelpPlayController.swift in Sources */,
+				D83DFFF91FA9290C00B4C0F6 /* XMLCrawler.swift in Sources */,
+				D83DFFBC1FA928DA00B4C0F6 /* HelpPageViewController.swift in Sources */,
+				D83DFFAC1FA9281D00B4C0F6 /* MenuViewController.swift in Sources */,
+				D83DFFDE1FA928FC00B4C0F6 /* C.swift in Sources */,
+				D83DFFFF1FA9290C00B4C0F6 /* RubbishRobot.swift in Sources */,
+				D83DFFCD1FA928EB00B4C0F6 /* BroomView.swift in Sources */,
+				D83D00071FA9293100B4C0F6 /* FloorTable.swift in Sources */,
+				D83DFFF81FA9290C00B4C0F6 /* DeadInstructable.swift in Sources */,
+				D83DFF9E1FA9281D00B4C0F6 /* Initialise.swift in Sources */,
+				D83DFFA91FA9281D00B4C0F6 /* PortraitViewController.swift in Sources */,
+				D83D00111FA9295900B4C0F6 /* FencePosition.swift in Sources */,
+				D83DFFF71FA9290C00B4C0F6 /* SetupRobot.swift in Sources */,
+				D83DFFC01FA928DA00B4C0F6 /* HelpViewController.swift in Sources */,
+				D83DFFD11FA928EB00B4C0F6 /* PowerView.swift in Sources */,
+				D83DFFA81FA9281D00B4C0F6 /* ListFloorTableController.swift in Sources */,
+				D83DFFD31FA928EB00B4C0F6 /* SplashToaster.swift in Sources */,
+				D83DFFFA1FA9290C00B4C0F6 /* PowerSwitchRobot.swift in Sources */,
+				D83DFFAA1FA9281D00B4C0F6 /* SmallBoardController.swift in Sources */,
+				D83D00001FA9290C00B4C0F6 /* Cleanomat.swift in Sources */,
+				D83DFFD61FA928EB00B4C0F6 /* ExplodeRubbishFinishView.swift in Sources */,
+				D83DFFBB1FA928D900B4C0F6 /* WallEmbedController.swift in Sources */,
+				D83DFFF21FA9290C00B4C0F6 /* InstructableRobot.swift in Sources */,
+				D83DFFE01FA928FC00B4C0F6 /* Queue.swift in Sources */,
+				D83DFFD51FA928EB00B4C0F6 /* FinishedImageView.swift in Sources */,
+				D83DFFD01FA928EB00B4C0F6 /* FlashImageView.swift in Sources */,
+				D83D00141FA9295900B4C0F6 /* Fence.swift in Sources */,
+				D83D00101FA9295900B4C0F6 /* FenceNormal.swift in Sources */,
 				D83DFF5E1FA9243300B4C0F6 /* AppDelegate.swift in Sources */,
+				D83DFFFE1FA9290C00B4C0F6 /* MouseRobot.swift in Sources */,
+				D83D00081FA9293100B4C0F6 /* DBConnection.swift in Sources */,
+				D83DFFD41FA928EB00B4C0F6 /* FenceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +1017,13 @@
 		};
 		D83DFF831FA9243300B4C0F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700902B4F674614F38D84BB0 /* Pods-Cleanobot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ2AK8VYMH;
 				INFOPLIST_FILE = Cleanobot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = name.guildford.grebble.Cleanobot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +1034,13 @@
 		};
 		D83DFF841FA9243300B4C0F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DCB4BA8D75AB62F33D6934 /* Pods-Cleanobot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ2AK8VYMH;
 				INFOPLIST_FILE = Cleanobot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = name.guildford.grebble.Cleanobot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +1051,7 @@
 		};
 		D83DFF861FA9243300B4C0F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D48134948FDBF0129A27B9 /* Pods-CleanobotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +1069,7 @@
 		};
 		D83DFF871FA9243300B4C0F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71292FF1BF605D591B7F72B /* Pods-CleanobotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +1087,7 @@
 		};
 		D83DFF891FA9243300B4C0F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B8A40C5ADE58D991264470 /* Pods-CleanobotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +1104,7 @@
 		};
 		D83DFF8A1FA9243300B4C0F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9F11807AD545C6BD1ED7DB /* Pods-CleanobotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

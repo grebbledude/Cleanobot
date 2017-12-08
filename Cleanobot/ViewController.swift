@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Cleanobot
+//  Robots2
 //
 //  Created by Pete Bennett on 31/10/2017.
 //  Copyright © 2017 Pete Bennett. All rights reserved.
