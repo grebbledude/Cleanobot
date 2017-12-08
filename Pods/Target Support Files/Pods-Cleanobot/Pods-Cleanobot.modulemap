@@ -1,0 +1,6 @@
+framework module Pods_Cleanobot {
+  umbrella header "Pods-Cleanobot-umbrella.h"
+
+  export *
+  module * { export * }
+}

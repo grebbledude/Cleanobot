@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0088A4669C13E34FFC671B7B653E49E7 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649B35BC78698723FDDD71BEBE397B5 /* Value.swift */; };
+		07785709795A4A98AD0E9CD83BD62397 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB28CD9BAE513F83069BD5D0E794364 /* Coding.swift */; };
+		0888AAF286123B0661900662431C0C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		08ABE6425F88C00AB58AD5DC9632611D /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659AE3466E78B0A516D651A33F67B372 /* AggregateFunctions.swift */; };
+		0FB7AC564D962C68DC7AF694CBE843BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		11880B2A75F6A2987105509722678D34 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B079007CACF412B2E96C658D9E839 /* CoreFunctions.swift */; };
+		122D5DAF1003C0AB6C5FCADEAC2EB8C1 /* Pods-CleanobotUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E536E943AA99621D4F178F489D3D665 /* Pods-CleanobotUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14C6239F686582508AEA4A58F5F66E56 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED0F3C2DE78C10C366F825D3CFAF336 /* Element.swift */; };
+		20D84C143269E60FBCDFCC30FFB2D6DB /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD64CCCEE4F308637389AB58339379C /* Error.swift */; };
+		2758CD107D81A4B5951A58608D939FEF /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556421678FBE49FCB2B361A71BF07F0 /* Options.swift */; };
+		28338AA1CF81213818998F4FCAC1E2B4 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A7FFD850F3906055267E448051463C /* Query.swift */; };
+		2AC59657A21321B39F3A7A3506339985 /* Pods-CleanobotUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B49F4E342C1A2A1809D99B3EF8B4989D /* Pods-CleanobotUITests-dummy.m */; };
+		31FE53E0C149EFE60ACFD2FB6BB108CA /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3205711D5E98E606918C9EC4B151F7 /* Schema.swift */; };
+		373FB23F48D5FD2E7A399F42E3747EEB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55D5E0086B962B3FD1AEF97E1D3FD13 /* Expression.swift */; };
+		3F32E4E755ACB30B8701F53C3B8917B5 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC530769D296343ED6904AA125C567 /* Parser.swift */; };
+		4956E8CA34EB46402307DD21FCEDA5FF /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9B688CAC438818739F309AA238EBCD /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5293EA8B0798CB9DBC5E93AE5A2C6A0E /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDA4974DAA20A6AF39E09B227C60B8 /* Operators.swift */; };
+		5A451D93C0E20DB987A9D953F1E8BA9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5C67BD33BEAD1A739CEC2A825F38C257 /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBAA63E60913DF6E069BF487845EBB7 /* AEXML-dummy.m */; };
+		5D0805246CF81F177288D4A9567A6581 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49728FC3441DB96F833618A2F07822A6 /* Foundation.swift */; };
+		5DD1C9E300865986CBCBC18E90F5D79D /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA13A4222880C34B70992401D89E5FB9 /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E30FC3DD754D5BBEAB257A47F712910 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E8CDD596A85F728D5DD5D4DAC4FA83 /* RTree.swift */; };
+		6E4E7C06A1B9C35408BECAEFEA3C3AD5 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5B0F05E53F69F4637CD652AC82518 /* Document.swift */; };
+		7C1F3D582053FA1D7D0515F3ACBC84DE /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10784C22664D8EE7FA3B33BDA4D4CCF3 /* Errors.swift */; };
+		7EDEBDA2B5697A2E8434688AC10B48F7 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304EC3DB7B48126808D069D69F0F0230 /* Blob.swift */; };
+		899242C1D21BB4038FF555DA01000935 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1ACDEF7D7BAB29B8A3AA5EB9AEC029 /* CustomFunctions.swift */; };
+		8A17FA485DF2ABF091B49397A92D79AC /* Pods-CleanobotTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA09DEBDF4611B59DE0671FFB968EF04 /* Pods-CleanobotTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927A2A0F20419AFB293A56C24A83C6C8 /* Pods-CleanobotTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C7C3FFC7D5EEABB154389EB5445237 /* Pods-CleanobotTests-dummy.m */; };
+		94B51C345F1CEEE7F37F53D400DF1B6C /* Pods-Cleanobot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEEFDAFEF33DBE0FF7A47406300DC59 /* Pods-Cleanobot-dummy.m */; };
+		9895AC015F4DB0D005A2B326B3072793 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E73FEFE3A4581B8D9F7092D6710D0AC /* SQLite.swift-dummy.m */; };
+		A154F1261D042C6343A4F98AD1495CEB /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0819BACD1F5D6D007F8756656F0F37BC /* Connection.swift */; };
+		A648C026BFFDDCC8703E00994DE088AB /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B3F7A0CB4D1FA073D617D1A19D28D /* FTS4.swift */; };
+		A8D4570B2DD452634993FD5FB3EF7116 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5F53575535D0A944A97DA1E32794B /* Collation.swift */; };
+		BB5CD1FCFA575A9D2B52FD144B4E2EBB /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B7C7C0502521D50CF4CCBCA0E6E25F /* DateAndTimeFunctions.swift */; };
+		C032B64ECE0027F28D565F3633E0ACEF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 345F40E93304F77AEA78EC18DD5CDC8D /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6A3353AC4D5606651B53D2887BAB18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C71499BA4694EAF9E18D158E4827E0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C7DB8CE095B112A6428F59296F0C1C93 /* Pods-Cleanobot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 020A080F8C830B162656B40006B178B2 /* Pods-Cleanobot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB61D281ED174F42FB3B11D34C6DDF81 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A528C856A7F9C767DA530F959EDF346 /* Helpers.swift */; };
+		CE6D5D4EAD70D6AF92EE3794F728527E /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCF052B7569DABAB7743C87A451B59B /* FTS5.swift */; };
+		D5968E624D45470B4DF915376A13F50E /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = E8116FF838253E377507649393C6C5FD /* SQLite-Bridging.m */; };
+		DF808C3D7526AF8B8E3FB37E52DF3E2D /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3A6016ECF9FF2B421E979A82F598A /* Setter.swift */; };
+		E3925FC6BF1C0762E7752B22D92E382A /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7515847389CA20D725189C53E5012A /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F4CA976EABF69A9A19AF18F1638FBC8A /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150FE68AB8DAF111C29B6D034F2FCB2 /* Statement.swift */; };
+		F5086F583252A007888A8A53A3B3C744 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED652938ECABDC9239893E4472A4351 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C870C99B04BE2652F1F72FC53CD6097A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060D44D2C64881E4E49B5B2F7AEEC158;
+			remoteInfo = SQLite.swift;
+		};
+		E98C5E7CBCAE71B632E31C2BF714EED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C257C954247EE49E09C66A8B19E56A;
+			remoteInfo = AEXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020A080F8C830B162656B40006B178B2 /* Pods-Cleanobot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cleanobot-umbrella.h"; sourceTree = "<group>"; };
+		03F44B776174AB81B1E81792D931B477 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0451DC40C1D6F2DA6FC378340ADF9651 /* Pods-Cleanobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cleanobot.release.xcconfig"; sourceTree = "<group>"; };
+		0819BACD1F5D6D007F8756656F0F37BC /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		0BD64CCCEE4F308637389AB58339379C /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		0C3205711D5E98E606918C9EC4B151F7 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		10784C22664D8EE7FA3B33BDA4D4CCF3 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		11D5F53575535D0A944A97DA1E32794B /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		1996FA03935FB93A65F66AA3E9545E5B /* Pods-Cleanobot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cleanobot-acknowledgements.plist"; sourceTree = "<group>"; };
+		1ED652938ECABDC9239893E4472A4351 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		277B3F7A0CB4D1FA073D617D1A19D28D /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		2FCF052B7569DABAB7743C87A451B59B /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		3027B4B2B5A287C82D0125E257260DA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304EC3DB7B48126808D069D69F0F0230 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		30C459E0144A2322C10AB7A57C246324 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		345F40E93304F77AEA78EC18DD5CDC8D /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		38A7FFD850F3906055267E448051463C /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		3DCBCA1BA40FC74CAC7426A44A8273E2 /* Pods-CleanobotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanobotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC6D7B62EDDDACF04FC127AEBA1B359 /* Pods-CleanobotTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanobotTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		431DADD21E10EEB41ED9C4C3D399BA08 /* Pods-CleanobotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanobotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49728FC3441DB96F833618A2F07822A6 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		4BC5B0F05E53F69F4637CD652AC82518 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
+		4D57E9FE5AF3C47484743DA55D84FF43 /* Pods-CleanobotUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanobotUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DAF1AE46B01F72C01C0BE32DF8AB65D /* Pods-CleanobotTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CleanobotTests.modulemap"; sourceTree = "<group>"; };
+		4F4ACAA52FEB5FFBE4FBFC74E3A62814 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561D23DA834FF53BA47E7155DC36F3E7 /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AEXML.modulemap; sourceTree = "<group>"; };
+		5C9B688CAC438818739F309AA238EBCD /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "Sources/SQLiteObjc/include/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		5FDDA4974DAA20A6AF39E09B227C60B8 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		6150FE68AB8DAF111C29B6D034F2FCB2 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		6155CE3118489999D5743B07B2CAC4B8 /* Pods-Cleanobot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cleanobot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		659AE3466E78B0A516D651A33F67B372 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AF530B1E9A9B7936024F125EBF2A5BF /* Pods-CleanobotUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanobotUITests-resources.sh"; sourceTree = "<group>"; };
+		6D1ACDEF7D7BAB29B8A3AA5EB9AEC029 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		6E73FEFE3A4581B8D9F7092D6710D0AC /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		6ED0F3C2DE78C10C366F825D3CFAF336 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
+		789765824735DB1E13B862506F9A014E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC26EAE2E3473185EC6702C2828B4CC /* Pods-CleanobotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanobotTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E536E943AA99621D4F178F489D3D665 /* Pods-CleanobotUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanobotUITests-umbrella.h"; sourceTree = "<group>"; };
+		7FEEFDAFEF33DBE0FF7A47406300DC59 /* Pods-Cleanobot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cleanobot-dummy.m"; sourceTree = "<group>"; };
+		8556421678FBE49FCB2B361A71BF07F0 /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/Options.swift; sourceTree = "<group>"; };
+		8809D2E416B0D23685C7AEAB68ED86E5 /* Pods-CleanobotTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanobotTests-resources.sh"; sourceTree = "<group>"; };
+		88C7C3FFC7D5EEABB154389EB5445237 /* Pods-CleanobotTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanobotTests-dummy.m"; sourceTree = "<group>"; };
+		8AE9AEAD61C5CD91D64A9FDF3DC8F432 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEXML.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2CA3AE20C37F30DDD2D7A83344CCFB /* Pods-CleanobotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanobotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E0B079007CACF412B2E96C658D9E839 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		8E7BE9AFCF9132D9C0B889778337A7A7 /* Pods-CleanobotUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanobotUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EFC530769D296343ED6904AA125C567 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9678365380919D2CCE8A3CDE451D0FC5 /* Pods-CleanobotTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanobotTests-frameworks.sh"; sourceTree = "<group>"; };
+		9A528C856A7F9C767DA530F959EDF346 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		9D7515847389CA20D725189C53E5012A /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		A23AE1555532129B9C83FBC0EF194349 /* Pods-Cleanobot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Cleanobot.modulemap"; sourceTree = "<group>"; };
+		A6796BB1A8D4B2B54187E4FCA2107C31 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		B49F4E342C1A2A1809D99B3EF8B4989D /* Pods-CleanobotUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanobotUITests-dummy.m"; sourceTree = "<group>"; };
+		B88637EBBF8BC93ED26EDA703E41342B /* Pods-CleanobotUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CleanobotUITests.modulemap"; sourceTree = "<group>"; };
+		B9B7C7C0502521D50CF4CCBCA0E6E25F /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		BA57D6567FB9CC16345C5A16A7FE76EF /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		BBA3A6016ECF9FF2B421E979A82F598A /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		BEE37DF15862768FEB6461F18F30B858 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6C9535B56F0701EEE6BD4E0BCBBCAC /* AEXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-prefix.pch"; sourceTree = "<group>"; };
+		C610E59B566814C195AF20B2131AD843 /* Pods-CleanobotUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanobotUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C9B8F9A40CE5C97FF5E0EF4FAEFAD16E /* Pods_Cleanobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cleanobot.framework; path = "Pods-Cleanobot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA09DEBDF4611B59DE0671FFB968EF04 /* Pods-CleanobotTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanobotTests-umbrella.h"; sourceTree = "<group>"; };
+		CBB28CD9BAE513F83069BD5D0E794364 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		D3F1006409BFB3A77D881E40D28EB104 /* AEXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.xcconfig; sourceTree = "<group>"; };
+		D55D5E0086B962B3FD1AEF97E1D3FD13 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		D649B35BC78698723FDDD71BEBE397B5 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		D69C3D764454D803E7E2C447A6099781 /* Pods-Cleanobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cleanobot.debug.xcconfig"; sourceTree = "<group>"; };
+		E444F89BB1FEA44ABC5859EF044B9CD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8116FF838253E377507649393C6C5FD /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Sources/SQLiteObjc/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		E9E8CDD596A85F728D5DD5D4DAC4FA83 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		EA13A4222880C34B70992401D89E5FB9 /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
+		EA228CC744E3B6F88FD970B2C011DB3B /* Pods-Cleanobot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cleanobot-frameworks.sh"; sourceTree = "<group>"; };
+		EB062DFDE35ADC01FE8DB9692E8FEA83 /* Pods-Cleanobot-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cleanobot-resources.sh"; sourceTree = "<group>"; };
+		ED8FC873520D95A8195BC7F591ACCF32 /* Pods-CleanobotTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanobotTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5165E0155F157BE0A20380978768185 /* Pods_CleanobotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CleanobotUITests.framework; path = "Pods-CleanobotUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBAA63E60913DF6E069BF487845EBB7 /* AEXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-dummy.m"; sourceTree = "<group>"; };
+		FEA765A983ABA37E2E723DB9BA7CC602 /* Pods_CleanobotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CleanobotTests.framework; path = "Pods-CleanobotTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		006C3D1BB1682C96C8B3449B71C4A701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71499BA4694EAF9E18D158E4827E0B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088C13557CF56B2ABE0108582D1617E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888AAF286123B0661900662431C0C03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA558A735E06F735D8F5CAE70E790A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A451D93C0E20DB987A9D953F1E8BA9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F5B840EB1A452325D9BE3511D8E9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A3353AC4D5606651B53D2887BAB18B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A56A5C25D81B116D1C157CE8037F6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB7AC564D962C68DC7AF694CBE843BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004E6F88A6ED1C5F8C736E94E641E7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE9AEAD61C5CD91D64A9FDF3DC8F432 /* AEXML.framework */,
+				C9B8F9A40CE5C97FF5E0EF4FAEFAD16E /* Pods_Cleanobot.framework */,
+				FEA765A983ABA37E2E723DB9BA7CC602 /* Pods_CleanobotTests.framework */,
+				F5165E0155F157BE0A20380978768185 /* Pods_CleanobotUITests.framework */,
+				03F44B776174AB81B1E81792D931B477 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E78444B3D5EF52AD3B15445C2984123 /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D87D72892947710EB7B079E17AB55788 /* standard */,
+				A5654510DA2969A20563795A12CCCD33 /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		26AEF83AED664B23A1FA4CF15D182901 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				561D23DA834FF53BA47E7155DC36F3E7 /* AEXML.modulemap */,
+				D3F1006409BFB3A77D881E40D28EB104 /* AEXML.xcconfig */,
+				FDBAA63E60913DF6E069BF487845EBB7 /* AEXML-dummy.m */,
+				BF6C9535B56F0701EEE6BD4E0BCBBCAC /* AEXML-prefix.pch */,
+				EA13A4222880C34B70992401D89E5FB9 /* AEXML-umbrella.h */,
+				3027B4B2B5A287C82D0125E257260DA7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AEXML";
+			sourceTree = "<group>";
+		};
+		46E6F73E44751F8B2A5F56E0DCCF2E17 /* AEXML */ = {
+			isa = PBXGroup;
+			children = (
+				4BC5B0F05E53F69F4637CD652AC82518 /* Document.swift */,
+				6ED0F3C2DE78C10C366F825D3CFAF336 /* Element.swift */,
+				0BD64CCCEE4F308637389AB58339379C /* Error.swift */,
+				8556421678FBE49FCB2B361A71BF07F0 /* Options.swift */,
+				8EFC530769D296343ED6904AA125C567 /* Parser.swift */,
+				26AEF83AED664B23A1FA4CF15D182901 /* Support Files */,
+			);
+			name = AEXML;
+			path = AEXML;
+			sourceTree = "<group>";
+		};
+		4A42A97D703E5AF2A46080259193B157 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E47756D30FDC7BF73EBFE8B53B4BF179 /* Pods-Cleanobot */,
+				DBC4B343E35F954DEFA4DA78D8EF67BE /* Pods-CleanobotTests */,
+				552FC83F5D0306961F5F7C8F80743698 /* Pods-CleanobotUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		552FC83F5D0306961F5F7C8F80743698 /* Pods-CleanobotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E444F89BB1FEA44ABC5859EF044B9CD1 /* Info.plist */,
+				B88637EBBF8BC93ED26EDA703E41342B /* Pods-CleanobotUITests.modulemap */,
+				8E7BE9AFCF9132D9C0B889778337A7A7 /* Pods-CleanobotUITests-acknowledgements.markdown */,
+				4D57E9FE5AF3C47484743DA55D84FF43 /* Pods-CleanobotUITests-acknowledgements.plist */,
+				B49F4E342C1A2A1809D99B3EF8B4989D /* Pods-CleanobotUITests-dummy.m */,
+				C610E59B566814C195AF20B2131AD843 /* Pods-CleanobotUITests-frameworks.sh */,
+				6AF530B1E9A9B7936024F125EBF2A5BF /* Pods-CleanobotUITests-resources.sh */,
+				7E536E943AA99621D4F178F489D3D665 /* Pods-CleanobotUITests-umbrella.h */,
+				3DCBCA1BA40FC74CAC7426A44A8273E2 /* Pods-CleanobotUITests.debug.xcconfig */,
+				431DADD21E10EEB41ED9C4C3D399BA08 /* Pods-CleanobotUITests.release.xcconfig */,
+			);
+			name = "Pods-CleanobotUITests";
+			path = "Target Support Files/Pods-CleanobotUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DE1438F6B1EAB6D6C962682A613F9325 /* Pods */,
+				004E6F88A6ED1C5F8C736E94E641E7F0 /* Products */,
+				4A42A97D703E5AF2A46080259193B157 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5654510DA2969A20563795A12CCCD33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				789765824735DB1E13B862506F9A014E /* Info.plist */,
+				A6796BB1A8D4B2B54187E4FCA2107C31 /* SQLite.swift.modulemap */,
+				30C459E0144A2322C10AB7A57C246324 /* SQLite.swift.xcconfig */,
+				6E73FEFE3A4581B8D9F7092D6710D0AC /* SQLite.swift-dummy.m */,
+				BA57D6567FB9CC16345C5A16A7FE76EF /* SQLite.swift-prefix.pch */,
+				1ED652938ECABDC9239893E4472A4351 /* SQLite.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D87D72892947710EB7B079E17AB55788 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				659AE3466E78B0A516D651A33F67B372 /* AggregateFunctions.swift */,
+				304EC3DB7B48126808D069D69F0F0230 /* Blob.swift */,
+				CBB28CD9BAE513F83069BD5D0E794364 /* Coding.swift */,
+				11D5F53575535D0A944A97DA1E32794B /* Collation.swift */,
+				0819BACD1F5D6D007F8756656F0F37BC /* Connection.swift */,
+				8E0B079007CACF412B2E96C658D9E839 /* CoreFunctions.swift */,
+				6D1ACDEF7D7BAB29B8A3AA5EB9AEC029 /* CustomFunctions.swift */,
+				B9B7C7C0502521D50CF4CCBCA0E6E25F /* DateAndTimeFunctions.swift */,
+				10784C22664D8EE7FA3B33BDA4D4CCF3 /* Errors.swift */,
+				D55D5E0086B962B3FD1AEF97E1D3FD13 /* Expression.swift */,
+				49728FC3441DB96F833618A2F07822A6 /* Foundation.swift */,
+				9D7515847389CA20D725189C53E5012A /* fts3_tokenizer.h */,
+				277B3F7A0CB4D1FA073D617D1A19D28D /* FTS4.swift */,
+				2FCF052B7569DABAB7743C87A451B59B /* FTS5.swift */,
+				9A528C856A7F9C767DA530F959EDF346 /* Helpers.swift */,
+				5FDDA4974DAA20A6AF39E09B227C60B8 /* Operators.swift */,
+				38A7FFD850F3906055267E448051463C /* Query.swift */,
+				E9E8CDD596A85F728D5DD5D4DAC4FA83 /* RTree.swift */,
+				0C3205711D5E98E606918C9EC4B151F7 /* Schema.swift */,
+				BBA3A6016ECF9FF2B421E979A82F598A /* Setter.swift */,
+				345F40E93304F77AEA78EC18DD5CDC8D /* SQLite.h */,
+				5C9B688CAC438818739F309AA238EBCD /* SQLite-Bridging.h */,
+				E8116FF838253E377507649393C6C5FD /* SQLite-Bridging.m */,
+				6150FE68AB8DAF111C29B6D034F2FCB2 /* Statement.swift */,
+				D649B35BC78698723FDDD71BEBE397B5 /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		DBC4B343E35F954DEFA4DA78D8EF67BE /* Pods-CleanobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4ACAA52FEB5FFBE4FBFC74E3A62814 /* Info.plist */,
+				4DAF1AE46B01F72C01C0BE32DF8AB65D /* Pods-CleanobotTests.modulemap */,
+				3EC6D7B62EDDDACF04FC127AEBA1B359 /* Pods-CleanobotTests-acknowledgements.markdown */,
+				ED8FC873520D95A8195BC7F591ACCF32 /* Pods-CleanobotTests-acknowledgements.plist */,
+				88C7C3FFC7D5EEABB154389EB5445237 /* Pods-CleanobotTests-dummy.m */,
+				9678365380919D2CCE8A3CDE451D0FC5 /* Pods-CleanobotTests-frameworks.sh */,
+				8809D2E416B0D23685C7AEAB68ED86E5 /* Pods-CleanobotTests-resources.sh */,
+				CA09DEBDF4611B59DE0671FFB968EF04 /* Pods-CleanobotTests-umbrella.h */,
+				8B2CA3AE20C37F30DDD2D7A83344CCFB /* Pods-CleanobotTests.debug.xcconfig */,
+				7CC26EAE2E3473185EC6702C2828B4CC /* Pods-CleanobotTests.release.xcconfig */,
+			);
+			name = "Pods-CleanobotTests";
+			path = "Target Support Files/Pods-CleanobotTests";
+			sourceTree = "<group>";
+		};
+		DE1438F6B1EAB6D6C962682A613F9325 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E6F73E44751F8B2A5F56E0DCCF2E17 /* AEXML */,
+				1E78444B3D5EF52AD3B15445C2984123 /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E47756D30FDC7BF73EBFE8B53B4BF179 /* Pods-Cleanobot */ = {
+			isa = PBXGroup;
+			children = (
+				BEE37DF15862768FEB6461F18F30B858 /* Info.plist */,
+				A23AE1555532129B9C83FBC0EF194349 /* Pods-Cleanobot.modulemap */,
+				6155CE3118489999D5743B07B2CAC4B8 /* Pods-Cleanobot-acknowledgements.markdown */,
+				1996FA03935FB93A65F66AA3E9545E5B /* Pods-Cleanobot-acknowledgements.plist */,
+				7FEEFDAFEF33DBE0FF7A47406300DC59 /* Pods-Cleanobot-dummy.m */,
+				EA228CC744E3B6F88FD970B2C011DB3B /* Pods-Cleanobot-frameworks.sh */,
+				EB062DFDE35ADC01FE8DB9692E8FEA83 /* Pods-Cleanobot-resources.sh */,
+				020A080F8C830B162656B40006B178B2 /* Pods-Cleanobot-umbrella.h */,
+				D69C3D764454D803E7E2C447A6099781 /* Pods-Cleanobot.debug.xcconfig */,
+				0451DC40C1D6F2DA6FC378340ADF9651 /* Pods-Cleanobot.release.xcconfig */,
+			);
+			name = "Pods-Cleanobot";
+			path = "Target Support Files/Pods-Cleanobot";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2671C6DAA1C054D81969FEE7CD7FD258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122D5DAF1003C0AB6C5FCADEAC2EB8C1 /* Pods-CleanobotUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677EA013D5CB6A22A6BC8B558645F32E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A17FA485DF2ABF091B49397A92D79AC /* Pods-CleanobotTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0613CA45FA3570375BCF0AD7364E7F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD1C9E300865986CBCBC18E90F5D79D /* AEXML-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EB7FA5A7E61E7F501FA5A11F195E2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3925FC6BF1C0762E7752B22D92E382A /* fts3_tokenizer.h in Headers */,
+				4956E8CA34EB46402307DD21FCEDA5FF /* SQLite-Bridging.h in Headers */,
+				C032B64ECE0027F28D565F3633E0ACEF /* SQLite.h in Headers */,
+				F5086F583252A007888A8A53A3B3C744 /* SQLite.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71EF00559807F9853A8A87D36E37B88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DB8CE095B112A6428F59296F0C1C93 /* Pods-Cleanobot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		060D44D2C64881E4E49B5B2F7AEEC158 /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68FB3A1B86677D9EFB1B83AD47C1E71 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				8759793F93A7BE1411DDFCACAB446847 /* Sources */,
+				56F5B840EB1A452325D9BE3511D8E9EC /* Frameworks */,
+				D7EB7FA5A7E61E7F501FA5A11F195E2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = 03F44B776174AB81B1E81792D931B477 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B4720012EF7CE6DD3551396EF5C7041 /* Pods-CleanobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B67301F5558E13C82DADF260C46B64 /* Build configuration list for PBXNativeTarget "Pods-CleanobotTests" */;
+			buildPhases = (
+				3B9E961DF262D70D72B04A17897F8528 /* Sources */,
+				45AA558A735E06F735D8F5CAE70E790A /* Frameworks */,
+				677EA013D5CB6A22A6BC8B558645F32E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CleanobotTests";
+			productName = "Pods-CleanobotTests";
+			productReference = FEA765A983ABA37E2E723DB9BA7CC602 /* Pods_CleanobotTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B16B78BDB3E4D64C85101FB9CEE3781 /* Pods-CleanobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246F391A81FCC33C2B373B3455E1061E /* Build configuration list for PBXNativeTarget "Pods-CleanobotUITests" */;
+			buildPhases = (
+				634777FF98B0263FB059C742A8D470DF /* Sources */,
+				088C13557CF56B2ABE0108582D1617E6 /* Frameworks */,
+				2671C6DAA1C054D81969FEE7CD7FD258 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CleanobotUITests";
+			productName = "Pods-CleanobotUITests";
+			productReference = F5165E0155F157BE0A20380978768185 /* Pods_CleanobotUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88C257C954247EE49E09C66A8B19E56A /* AEXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C4627B7E11408E0460F1F8F976E2F4 /* Build configuration list for PBXNativeTarget "AEXML" */;
+			buildPhases = (
+				747A9DA0F6886F738BFD444632081895 /* Sources */,
+				006C3D1BB1682C96C8B3449B71C4A701 /* Frameworks */,
+				D0613CA45FA3570375BCF0AD7364E7F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEXML;
+			productName = AEXML;
+			productReference = 8AE9AEAD61C5CD91D64A9FDF3DC8F432 /* AEXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4FFC48A14EE67652410F2F0706CE470 /* Pods-Cleanobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D181D307A39D954B46C56CE16E8EA67 /* Build configuration list for PBXNativeTarget "Pods-Cleanobot" */;
+			buildPhases = (
+				34B24B59126ED3FA7330C44F4B094451 /* Sources */,
+				5A56A5C25D81B116D1C157CE8037F6D5 /* Frameworks */,
+				F71EF00559807F9853A8A87D36E37B88 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				453031C161D6591753F351CF5457E756 /* PBXTargetDependency */,
+				BC7DE961FE5F08376CC5AAE2D58803A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cleanobot";
+			productName = "Pods-Cleanobot";
+			productReference = C9B8F9A40CE5C97FF5E0EF4FAEFAD16E /* Pods_Cleanobot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 004E6F88A6ED1C5F8C736E94E641E7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C257C954247EE49E09C66A8B19E56A /* AEXML */,
+				B4FFC48A14EE67652410F2F0706CE470 /* Pods-Cleanobot */,
+				3B4720012EF7CE6DD3551396EF5C7041 /* Pods-CleanobotTests */,
+				6B16B78BDB3E4D64C85101FB9CEE3781 /* Pods-CleanobotUITests */,
+				060D44D2C64881E4E49B5B2F7AEEC158 /* SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B24B59126ED3FA7330C44F4B094451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B51C345F1CEEE7F37F53D400DF1B6C /* Pods-Cleanobot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9E961DF262D70D72B04A17897F8528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927A2A0F20419AFB293A56C24A83C6C8 /* Pods-CleanobotTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634777FF98B0263FB059C742A8D470DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC59657A21321B39F3A7A3506339985 /* Pods-CleanobotUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747A9DA0F6886F738BFD444632081895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C67BD33BEAD1A739CEC2A825F38C257 /* AEXML-dummy.m in Sources */,
+				6E4E7C06A1B9C35408BECAEFEA3C3AD5 /* Document.swift in Sources */,
+				14C6239F686582508AEA4A58F5F66E56 /* Element.swift in Sources */,
+				20D84C143269E60FBCDFCC30FFB2D6DB /* Error.swift in Sources */,
+				2758CD107D81A4B5951A58608D939FEF /* Options.swift in Sources */,
+				3F32E4E755ACB30B8701F53C3B8917B5 /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8759793F93A7BE1411DDFCACAB446847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ABE6425F88C00AB58AD5DC9632611D /* AggregateFunctions.swift in Sources */,
+				7EDEBDA2B5697A2E8434688AC10B48F7 /* Blob.swift in Sources */,
+				07785709795A4A98AD0E9CD83BD62397 /* Coding.swift in Sources */,
+				A8D4570B2DD452634993FD5FB3EF7116 /* Collation.swift in Sources */,
+				A154F1261D042C6343A4F98AD1495CEB /* Connection.swift in Sources */,
+				11880B2A75F6A2987105509722678D34 /* CoreFunctions.swift in Sources */,
+				899242C1D21BB4038FF555DA01000935 /* CustomFunctions.swift in Sources */,
+				BB5CD1FCFA575A9D2B52FD144B4E2EBB /* DateAndTimeFunctions.swift in Sources */,
+				7C1F3D582053FA1D7D0515F3ACBC84DE /* Errors.swift in Sources */,
+				373FB23F48D5FD2E7A399F42E3747EEB /* Expression.swift in Sources */,
+				5D0805246CF81F177288D4A9567A6581 /* Foundation.swift in Sources */,
+				A648C026BFFDDCC8703E00994DE088AB /* FTS4.swift in Sources */,
+				CE6D5D4EAD70D6AF92EE3794F728527E /* FTS5.swift in Sources */,
+				CB61D281ED174F42FB3B11D34C6DDF81 /* Helpers.swift in Sources */,
+				5293EA8B0798CB9DBC5E93AE5A2C6A0E /* Operators.swift in Sources */,
+				28338AA1CF81213818998F4FCAC1E2B4 /* Query.swift in Sources */,
+				5E30FC3DD754D5BBEAB257A47F712910 /* RTree.swift in Sources */,
+				31FE53E0C149EFE60ACFD2FB6BB108CA /* Schema.swift in Sources */,
+				DF808C3D7526AF8B8E3FB37E52DF3E2D /* Setter.swift in Sources */,
+				D5968E624D45470B4DF915376A13F50E /* SQLite-Bridging.m in Sources */,
+				9895AC015F4DB0D005A2B326B3072793 /* SQLite.swift-dummy.m in Sources */,
+				F4CA976EABF69A9A19AF18F1638FBC8A /* Statement.swift in Sources */,
+				0088A4669C13E34FFC671B7B653E49E7 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		453031C161D6591753F351CF5457E756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEXML;
+			target = 88C257C954247EE49E09C66A8B19E56A /* AEXML */;
+			targetProxy = E98C5E7CBCAE71B632E31C2BF714EED3 /* PBXContainerItemProxy */;
+		};
+		BC7DE961FE5F08376CC5AAE2D58803A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 060D44D2C64881E4E49B5B2F7AEEC158 /* SQLite.swift */;
+			targetProxy = C870C99B04BE2652F1F72FC53CD6097A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		102DA08680CC54D5F35DE9C1FDC2BE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0451DC40C1D6F2DA6FC378340ADF9651 /* Pods-Cleanobot.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cleanobot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cleanobot/Pods-Cleanobot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cleanobot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13DDB4006239B5100879B59519440087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F1006409BFB3A77D881E40D28EB104 /* AEXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1607F8EFD593F5D765FB8F1C527F3A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCBCA1BA40FC74CAC7426A44A8273E2 /* Pods-CleanobotUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanobotUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CleanobotUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		614F6AF53127881184499A6092BE63A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C459E0144A2322C10AB7A57C246324 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78EC3FCBF9483107443EF81EC8942F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C459E0144A2322C10AB7A57C246324 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		967908D4C115D90A2A341368BA7CAFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69C3D764454D803E7E2C447A6099781 /* Pods-Cleanobot.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cleanobot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cleanobot/Pods-Cleanobot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cleanobot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6B2D0642660C8789C103EC945C2F742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431DADD21E10EEB41ED9C4C3D399BA08 /* Pods-CleanobotUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanobotUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CleanobotUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF9D1446D4D6276834D4BFE747AFB4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F1006409BFB3A77D881E40D28EB104 /* AEXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8337FFCA807993FAC06B25F45077505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC26EAE2E3473185EC6702C2828B4CC /* Pods-CleanobotTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanobotTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CleanobotTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C691D5542E5EF4AEDEE5FF7DEC393021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2CA3AE20C37F30DDD2D7A83344CCFB /* Pods-CleanobotTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanobotTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CleanobotTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D181D307A39D954B46C56CE16E8EA67 /* Build configuration list for PBXNativeTarget "Pods-Cleanobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967908D4C115D90A2A341368BA7CAFD3 /* Debug */,
+				102DA08680CC54D5F35DE9C1FDC2BE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246F391A81FCC33C2B373B3455E1061E /* Build configuration list for PBXNativeTarget "Pods-CleanobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1607F8EFD593F5D765FB8F1C527F3A43 /* Debug */,
+				A6B2D0642660C8789C103EC945C2F742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C4627B7E11408E0460F1F8F976E2F4 /* Build configuration list for PBXNativeTarget "AEXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9D1446D4D6276834D4BFE747AFB4EE /* Debug */,
+				13DDB4006239B5100879B59519440087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68FB3A1B86677D9EFB1B83AD47C1E71 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614F6AF53127881184499A6092BE63A3 /* Debug */,
+				78EC3FCBF9483107443EF81EC8942F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B67301F5558E13C82DADF260C46B64 /* Build configuration list for PBXNativeTarget "Pods-CleanobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C691D5542E5EF4AEDEE5FF7DEC393021 /* Debug */,
+				B8337FFCA807993FAC06B25F45077505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
