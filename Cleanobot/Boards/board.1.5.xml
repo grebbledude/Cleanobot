@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<board count2="0" floor="1" room="5" count0="2" count1="6" maxpage="6">
+    <move>
+        <fence type="normal" direction="left" />
+        <rubbish volume="1" />
+    </move>
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="right" />
+        <rubbish volume="1" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+        <fence type="electric" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+        <rubbish volume="2" />
+    </move>
+    <move />
+    <move />
+    <turn>left</turn>
+    <move />
+    <turn>left</turn>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <move />
+    <move>
+        <fence type="electric" direction="up" />
+        <rubbish volume="1" />
+    </move>
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move />
+    <move />
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="electric" direction="down" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="electric" direction="up" />
+        <rubbish volume="2" />
+    </move>
+    <turn>left</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+</board>

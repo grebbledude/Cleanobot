@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<board count2="0" floor="1" room="9" count0="5" count1="4" maxpage="10">
+    <move />
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="electric" direction="right" />
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="electric" direction="left" />
+        <sweeper direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+        <fence type="normal" direction="down" />
+    </move>
+    <move />
+    <move />
+    <turn>left</turn>
+    <move>
+        <mouse direction="down" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+        <fence type="normal" direction="up" />
+    </move>
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move />
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move />
+</board>

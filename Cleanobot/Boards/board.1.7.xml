@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<board count2="0" floor="1" room="7" count0="3" count1="2" maxpage="8">
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <sweeper direction="right" />
+    </move>
+    <move>
+        <fence type="electric" direction="left" />
+    </move>
+    <move>
+        <fence type="electric" direction="right" />
+        <sweeper direction="left" />
+    </move>
+    <move />
+    <move />
+    <turn>left</turn>
+    <move />
+    <turn>left</turn>
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+        <sweeper direction="right" />
+    </move>
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="electric" direction="down" />
+    </move>
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <move />
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <fence type="electric" direction="down" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="electric" direction="up" />
+    </move>
+    <turn>left</turn>
+    <move />
+    <move />
+    <move />
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="electric" direction="up" />
+    </move>
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="right" />
+        <sweeper direction="up" />
+    </move>
+    <move />
+    <move />
+    <move />
+    <move />
+</board>

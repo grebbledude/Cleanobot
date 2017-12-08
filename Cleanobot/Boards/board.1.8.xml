@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<board count2="0" floor="1" room="8" count0="6" count1="5" maxpage="9">
+    <move />
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <sweeper direction="left" />
+    </move>
+    <move />
+    <move />
+    <turn>left</turn>
+    <move>
+        <fence type="electric" direction="down" />
+    </move>
+    <turn>left</turn>
+    <move />
+    <move />
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+        <fence type="normal" direction="down" />
+        <rubbish volume="2" />
+    </move>
+    <move />
+    <turn>right</turn>
+    <move>
+        <sweeper direction="left" />
+    </move>
+    <turn>right</turn>
+    <move>
+        <fence type="electric" direction="left" />
+        <fence type="normal" direction="up" />
+        <rubbish volume="1" />
+    </move>
+    <move>
+        <fence type="electric" direction="right" />
+        <sweeper direction="left" />
+    </move>
+    <move />
+    <move>
+        <fence type="electric" direction="left" />
+    </move>
+    <move>
+        <fence type="electric" direction="right" />
+        <fence type="electric" direction="up" />
+        <fence type="electric" direction="down" />
+        <ook direction="right" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="electric" direction="up" />
+    </move>
+    <turn>left</turn>
+    <move />
+    <move>
+        <sweeper direction="right" />
+    </move>
+    <move>
+        <fence type="electric" direction="right" />
+    </move>
+    <move>
+        <fence type="electric" direction="left" />
+    </move>
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="electric" direction="left" />
+    </move>
+    <move>
+        <fence type="electric" direction="right" />
+        <rubbish volume="2" />
+    </move>
+    <move>
+        <rubbish volume="3" />
+    </move>
+    <move />
+    <move />
+</board>

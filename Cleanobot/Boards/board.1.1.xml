@@ -1,0 +1,46 @@
+<board count2="0" floor="1" room="1" count0="1" count1="0" maxpage="4">
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>left</turn>
+    <move />
+    <turn>left</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>left</turn>
+    <move />
+    <turn>left</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+</board>
