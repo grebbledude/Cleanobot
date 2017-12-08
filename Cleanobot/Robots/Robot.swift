@@ -37,39 +37,44 @@ class Robot: NSObject {
     func cleanup() {
         mView?.removeFromSuperview()
     }
-    final func doMove() {
+    final func doMove() -> Bool {
         if mUsingInitialConstraints != nil && mUsingInitialConstraints! {
             resetConstraints()
         }
         if let controlledRobot = self as? InstructableRobot {
             if let _ = self as? DeadInstructable {
-                return
+                return false
             }
             if !controlledRobot.moveAfterInstruction() {  // true means carry on and move
-                return
+                return requiresAnimation()
             }
         }
         
         if !canMove(fence: mPosition.getFenceType(in: mDirection)) {
             if !moveAfterAlternativeAction() {
-                return
+                return requiresAnimation()
             }
         }
         var target = mPosition.getNext(in: mDirection)!
         if !canInteract(inSquare: target) {
             if !moveAfterAlternativeAction() {
-                return
+                return requiresAnimation()
             } // need to recalculate target
             if !canMove(fence: mPosition.getFenceType(in: mDirection)) {
-                return
+                return requiresAnimation()
             }
             target = mPosition.getNext(in: mDirection)!
             if !canInteract(inSquare: target) {
-                return
+                return requiresAnimation()
             }
   
         }
         executeMove(toSquare: target)
+        return requiresAnimation()
+    }
+    func requiresAnimation() -> Bool {
+        // Override this to prevent a delay after the "doMove" call.  For example rubbish
+        return true
     }
     func canInteract(inSquare target: BoardSquare) -> Bool {
         var interactOK = true

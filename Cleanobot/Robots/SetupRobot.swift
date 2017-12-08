@@ -85,7 +85,7 @@ class SetupRobot : Robot, UITextFieldDelegate {
             textField.text = "1"
             return false
         }
-        if string.characters.count > 1 {
+        if string.count > 1 {
             return false
         }
         let aSet = NSCharacterSet(charactersIn:"0123456789").inverted

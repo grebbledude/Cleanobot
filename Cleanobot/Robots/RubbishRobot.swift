@@ -16,6 +16,10 @@ class RubbishRobot: Robot {
     override func getImageString() -> String {  // Always overwritten
         return "rubbishImage"
     }
+    override func requiresAnimation() -> Bool {
+        // no delay for rubbish
+        return false
+    }
     func getVolume() -> Int {
         return mVolume
     }

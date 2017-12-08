@@ -120,9 +120,13 @@ class Board {
         if index >= mInstructables.count {
             doHouse(index: 0)
         } else {
-            mInstructables[index].doMove()
-            let when = DispatchTime.now() + 0.1
-            DispatchQueue.main.asyncAfter(deadline: when) {
+            let delay = mInstructables[index].doMove()
+            if delay {
+                let when = DispatchTime.now() + 0.1
+                DispatchQueue.main.asyncAfter(deadline: when) {
+                    self.doInstructable(index: index + 1)
+                }
+            } else {
                 self.doInstructable(index: index + 1)
             }
         }
@@ -132,14 +136,15 @@ class Board {
             for door in mDoors {
                 mPostActivities.append(door.cycleStatus)
             }
-            let when = DispatchTime.now() + 0.1
-            DispatchQueue.main.asyncAfter(deadline: when) {
-                self.doPostActivities(index: 0)
-            }
+            self.doPostActivities(index: 0)
         } else {
-            mRobots[index].doMove()
-            let when = DispatchTime.now() + 0.1
-            DispatchQueue.main.asyncAfter(deadline: when) {
+            let delay = mRobots[index].doMove()
+            if delay {
+                let when = DispatchTime.now() + 0.1
+                DispatchQueue.main.asyncAfter(deadline: when) {
+                    self.doHouse(index: index + 1)
+                }
+            } else {
                 self.doHouse(index: index + 1)
             }
         }
