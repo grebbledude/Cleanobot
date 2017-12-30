@@ -40,6 +40,10 @@ class Fence {
             
         }
     }
+    func setAnimatingImages(for imageView: UIImageView) -> Bool{
+        // Only for doors at the moment, but leave flexible
+        return false // no animation
+    }
 }
 
 

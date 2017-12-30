@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		7BDEA60532389430D0045B75 /* Pods_CleanobotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF8CF9CBEA667209371A10E /* Pods_CleanobotUITests.framework */; };
 		8CF7EA9E7836320F42FEEBC9 /* Pods_Cleanobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0038457DFB0FC92A32FB2AA8 /* Pods_Cleanobot.framework */; };
+		D832EE821FDC82020058A6B5 /* board.1.2x.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE811FDC82020058A6B5 /* board.1.2x.xml */; };
+		D832EE851FDD416C0058A6B5 /* Level.1.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE841FDD416C0058A6B5 /* Level.1.xml */; };
+		D832EE871FDD41FC0058A6B5 /* Level.2.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE861FDD41FC0058A6B5 /* Level.2.xml */; };
+		D832EE891FDD54260058A6B5 /* FloorXmL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832EE881FDD54260058A6B5 /* FloorXmL.swift */; };
+		D832EE8B1FDD799D0058A6B5 /* board.2.1.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE8A1FDD799D0058A6B5 /* board.2.1.xml */; };
+		D832EE8D1FDDC2190058A6B5 /* board.2.2.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE8C1FDDC2190058A6B5 /* board.2.2.xml */; };
 		D83D00001FA9290C00B4C0F6 /* Cleanomat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFF01FA9290C00B4C0F6 /* Cleanomat.swift */; };
 		D83D00061FA9293100B4C0F6 /* RoomTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D00021FA9293100B4C0F6 /* RoomTable.swift */; };
 		D83D00071FA9293100B4C0F6 /* FloorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D00031FA9293100B4C0F6 /* FloorTable.swift */; };
@@ -28,7 +34,7 @@
 		D83D00271FA9298200B4C0F6 /* board.1.7.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001C1FA9298200B4C0F6 /* board.1.7.xml */; };
 		D83D00281FA9298200B4C0F6 /* board.1.9.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001D1FA9298200B4C0F6 /* board.1.9.xml */; };
 		D83D00291FA9298200B4C0F6 /* board.1.8.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001E1FA9298200B4C0F6 /* board.1.8.xml */; };
-		D83D002A1FA9298200B4C0F6 /* board.1.xxxx.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001F1FA9298200B4C0F6 /* board.1.xxxx.xml */; };
+		D83D002A1FA9298200B4C0F6 /* board.1.xxx.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D001F1FA9298200B4C0F6 /* board.1.xxx.xml */; };
 		D83D002B1FA9298200B4C0F6 /* board.1.1.xml in Resources */ = {isa = PBXBuildFile; fileRef = D83D00201FA9298200B4C0F6 /* board.1.1.xml */; };
 		D83D002D1FA92A0500B4C0F6 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D002C1FA92A0400B4C0F6 /* PopUpView.swift */; };
 		D83D002F1FA92EC400B4C0F6 /* StoryItems.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83D002E1FA92EC400B4C0F6 /* StoryItems.storyboard */; };
@@ -89,13 +95,29 @@
 		D83DFFF81FA9290C00B4C0F6 /* DeadInstructable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE81FA9290B00B4C0F6 /* DeadInstructable.swift */; };
 		D83DFFF91FA9290C00B4C0F6 /* XMLCrawler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFE91FA9290B00B4C0F6 /* XMLCrawler.swift */; };
 		D83DFFFA1FA9290C00B4C0F6 /* PowerSwitchRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEA1FA9290B00B4C0F6 /* PowerSwitchRobot.swift */; };
-		D83DFFFB1FA9290C00B4C0F6 /* DoorControlRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobot.swift */; };
+		D83DFFFB1FA9290C00B4C0F6 /* DoorControlRobotDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobotDelete.swift */; };
 		D83DFFFC1FA9290C00B4C0F6 /* SweeperRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEC1FA9290B00B4C0F6 /* SweeperRobot.swift */; };
 		D83DFFFD1FA9290C00B4C0F6 /* LaundryRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFED1FA9290B00B4C0F6 /* LaundryRobot.swift */; };
 		D83DFFFE1FA9290C00B4C0F6 /* MouseRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEE1FA9290C00B4C0F6 /* MouseRobot.swift */; };
 		D83DFFFF1FA9290C00B4C0F6 /* RubbishRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEF1FA9290C00B4C0F6 /* RubbishRobot.swift */; };
 		D8B0B2621FB63698003AA69E /* testing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B0B2611FB63698003AA69E /* testing.storyboard */; };
 		D8B0B2641FB63738003AA69E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0B2631FB63738003AA69E /* TestViewController.swift */; };
+		D8C2C4181FDB43F3000FC864 /* SoapRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2C4171FDB43F3000FC864 /* SoapRobot.swift */; };
+		D8C2C41A1FDB5354000FC864 /* SoapSudRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2C4191FDB5354000FC864 /* SoapSudRobot.swift */; };
+		D8ECB9791FE1F63A00D1EC9A /* Test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB9781FE1F63A00D1EC9A /* Test2ViewController.swift */; };
+		D8ECB97B1FE5448200D1EC9A /* FenceDoor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB97A1FE5448200D1EC9A /* FenceDoor2.swift */; };
+		D8ECB97D1FE544ED00D1EC9A /* Fence2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB97C1FE544ED00D1EC9A /* Fence2.swift */; };
+		D8ECB97F1FE545B800D1EC9A /* FencePosition2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB97E1FE545B800D1EC9A /* FencePosition2.swift */; };
+		D8ECB9811FE5BDD600D1EC9A /* Fence2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB9801FE5BDD600D1EC9A /* Fence2View.swift */; };
+		D8ECB9831FE8717500D1EC9A /* board.2.3.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8ECB9821FE8717500D1EC9A /* board.2.3.xml */; };
+		D8ECB9851FE9A49500D1EC9A /* board.2.4.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8ECB9841FE9A49500D1EC9A /* board.2.4.xml */; };
+		D8ECB9871FEA95E300D1EC9A /* board.2.5.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8ECB9861FEA95E300D1EC9A /* board.2.5.xml */; };
+		D8ECB9891FED6FC600D1EC9A /* board.2.6.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8ECB9881FED6FC600D1EC9A /* board.2.6.xml */; };
+		D8ECB98B1FF46CC500D1EC9A /* board.2.7.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8ECB98A1FF46CC500D1EC9A /* board.2.7.xml */; };
+		D8ECB98D1FF4EB1900D1EC9A /* LaundryFinishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB98C1FF4EB1900D1EC9A /* LaundryFinishedView.swift */; };
+		D8ECB98F1FF51D9400D1EC9A /* PolishedFloorRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB98E1FF51D9400D1EC9A /* PolishedFloorRobot.swift */; };
+		D8ECB9911FF6B1D700D1EC9A /* PolisherRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB9901FF6B1D700D1EC9A /* PolisherRobot.swift */; };
+		D8ECB9951FF7745300D1EC9A /* board.2.8.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8ECB9941FF7745300D1EC9A /* board.2.8.xml */; };
 		E0CFA7E08B27FDFFAB885DB5 /* Pods_CleanobotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BE005582FBC8BCED50166B /* Pods_CleanobotTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +147,12 @@
 		7A9F11807AD545C6BD1ED7DB /* Pods-CleanobotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A5B8A40C5ADE58D991264470 /* Pods-CleanobotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3D48134948FDBF0129A27B9 /* Pods-CleanobotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D832EE811FDC82020058A6B5 /* board.1.2x.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = board.1.2x.xml; sourceTree = "<group>"; };
+		D832EE841FDD416C0058A6B5 /* Level.1.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Level.1.xml; path = Levels/Level.1.xml; sourceTree = "<group>"; };
+		D832EE861FDD41FC0058A6B5 /* Level.2.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Level.2.xml; path = Levels/Level.2.xml; sourceTree = "<group>"; };
+		D832EE881FDD54260058A6B5 /* FloorXmL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorXmL.swift; sourceTree = "<group>"; };
+		D832EE8A1FDD799D0058A6B5 /* board.2.1.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = board.2.1.xml; sourceTree = "<group>"; };
+		D832EE8C1FDDC2190058A6B5 /* board.2.2.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = board.2.2.xml; sourceTree = "<group>"; };
 		D83D00021FA9293100B4C0F6 /* RoomTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomTable.swift; sourceTree = "<group>"; };
 		D83D00031FA9293100B4C0F6 /* FloorTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorTable.swift; sourceTree = "<group>"; };
 		D83D00041FA9293100B4C0F6 /* DBConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBConnection.swift; sourceTree = "<group>"; };
@@ -143,7 +171,7 @@
 		D83D001C1FA9298200B4C0F6 /* board.1.7.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.7.xml; path = Boards/board.1.7.xml; sourceTree = "<group>"; };
 		D83D001D1FA9298200B4C0F6 /* board.1.9.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.9.xml; path = Boards/board.1.9.xml; sourceTree = "<group>"; };
 		D83D001E1FA9298200B4C0F6 /* board.1.8.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.8.xml; path = Boards/board.1.8.xml; sourceTree = "<group>"; };
-		D83D001F1FA9298200B4C0F6 /* board.1.xxxx.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.xxxx.xml; path = Boards/board.1.xxxx.xml; sourceTree = "<group>"; };
+		D83D001F1FA9298200B4C0F6 /* board.1.xxx.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.xxx.xml; path = Boards/board.1.xxx.xml; sourceTree = "<group>"; };
 		D83D00201FA9298200B4C0F6 /* board.1.1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = board.1.1.xml; path = Boards/board.1.1.xml; sourceTree = "<group>"; };
 		D83D002C1FA92A0400B4C0F6 /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopUpView.swift; path = Views/PopUpView.swift; sourceTree = "<group>"; };
 		D83D002E1FA92EC400B4C0F6 /* StoryItems.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StoryItems.storyboard; path = Help/StoryItems.storyboard; sourceTree = "<group>"; };
@@ -210,7 +238,7 @@
 		D83DFFE81FA9290B00B4C0F6 /* DeadInstructable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeadInstructable.swift; path = Robots/DeadInstructable.swift; sourceTree = "<group>"; };
 		D83DFFE91FA9290B00B4C0F6 /* XMLCrawler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XMLCrawler.swift; path = Robots/XMLCrawler.swift; sourceTree = "<group>"; };
 		D83DFFEA1FA9290B00B4C0F6 /* PowerSwitchRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSwitchRobot.swift; path = Robots/PowerSwitchRobot.swift; sourceTree = "<group>"; };
-		D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoorControlRobot.swift; path = Robots/DoorControlRobot.swift; sourceTree = "<group>"; };
+		D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobotDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoorControlRobotDelete.swift; path = Robots/DoorControlRobotDelete.swift; sourceTree = "<group>"; };
 		D83DFFEC1FA9290B00B4C0F6 /* SweeperRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweeperRobot.swift; path = Robots/SweeperRobot.swift; sourceTree = "<group>"; };
 		D83DFFED1FA9290B00B4C0F6 /* LaundryRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaundryRobot.swift; path = Robots/LaundryRobot.swift; sourceTree = "<group>"; };
 		D83DFFEE1FA9290C00B4C0F6 /* MouseRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MouseRobot.swift; path = Robots/MouseRobot.swift; sourceTree = "<group>"; };
@@ -218,6 +246,22 @@
 		D83DFFF01FA9290C00B4C0F6 /* Cleanomat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cleanomat.swift; path = Robots/Cleanomat.swift; sourceTree = "<group>"; };
 		D8B0B2611FB63698003AA69E /* testing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = testing.storyboard; path = deletethem/testing.storyboard; sourceTree = "<group>"; };
 		D8B0B2631FB63738003AA69E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = deletethem/TestViewController.swift; sourceTree = "<group>"; };
+		D8C2C4171FDB43F3000FC864 /* SoapRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoapRobot.swift; path = Robots/SoapRobot.swift; sourceTree = "<group>"; };
+		D8C2C4191FDB5354000FC864 /* SoapSudRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoapSudRobot.swift; sourceTree = "<group>"; };
+		D8ECB9781FE1F63A00D1EC9A /* Test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test2ViewController.swift; path = deletethem/Test2ViewController.swift; sourceTree = "<group>"; };
+		D8ECB97A1FE5448200D1EC9A /* FenceDoor2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FenceDoor2.swift; path = deletethem/FenceDoor2.swift; sourceTree = "<group>"; };
+		D8ECB97C1FE544ED00D1EC9A /* Fence2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fence2.swift; path = deletethem/Fence2.swift; sourceTree = "<group>"; };
+		D8ECB97E1FE545B800D1EC9A /* FencePosition2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FencePosition2.swift; path = deletethem/FencePosition2.swift; sourceTree = "<group>"; };
+		D8ECB9801FE5BDD600D1EC9A /* Fence2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fence2View.swift; path = deletethem/Fence2View.swift; sourceTree = "<group>"; };
+		D8ECB9821FE8717500D1EC9A /* board.2.3.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = board.2.3.xml; path = Boards/board.2.3.xml; sourceTree = "<group>"; };
+		D8ECB9841FE9A49500D1EC9A /* board.2.4.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = board.2.4.xml; path = Boards/board.2.4.xml; sourceTree = "<group>"; };
+		D8ECB9861FEA95E300D1EC9A /* board.2.5.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = board.2.5.xml; path = Boards/board.2.5.xml; sourceTree = "<group>"; };
+		D8ECB9881FED6FC600D1EC9A /* board.2.6.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = board.2.6.xml; path = Boards/board.2.6.xml; sourceTree = "<group>"; };
+		D8ECB98A1FF46CC500D1EC9A /* board.2.7.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = board.2.7.xml; path = Boards/board.2.7.xml; sourceTree = "<group>"; };
+		D8ECB98C1FF4EB1900D1EC9A /* LaundryFinishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaundryFinishedView.swift; path = Views/LaundryFinishedView.swift; sourceTree = "<group>"; };
+		D8ECB98E1FF51D9400D1EC9A /* PolishedFloorRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PolishedFloorRobot.swift; path = Robots/PolishedFloorRobot.swift; sourceTree = "<group>"; };
+		D8ECB9901FF6B1D700D1EC9A /* PolisherRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PolisherRobot.swift; path = Robots/PolisherRobot.swift; sourceTree = "<group>"; };
+		D8ECB9941FF7745300D1EC9A /* board.2.8.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = board.2.8.xml; path = Boards/board.2.8.xml; sourceTree = "<group>"; };
 		F71292FF1BF605D591B7F72B /* Pods-CleanobotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -263,6 +307,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D832EE831FDD36EC0058A6B5 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				D832EE841FDD416C0058A6B5 /* Level.1.xml */,
+				D832EE861FDD41FC0058A6B5 /* Level.2.xml */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
 		D83D00011FA9292200B4C0F6 /* Tables */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,7 +352,16 @@
 				D83D001E1FA9298200B4C0F6 /* board.1.8.xml */,
 				D83D001D1FA9298200B4C0F6 /* board.1.9.xml */,
 				D83D001A1FA9298100B4C0F6 /* board.1.10.xml */,
-				D83D001F1FA9298200B4C0F6 /* board.1.xxxx.xml */,
+				D83D001F1FA9298200B4C0F6 /* board.1.xxx.xml */,
+				D832EE811FDC82020058A6B5 /* board.1.2x.xml */,
+				D832EE8A1FDD799D0058A6B5 /* board.2.1.xml */,
+				D832EE8C1FDDC2190058A6B5 /* board.2.2.xml */,
+				D8ECB9821FE8717500D1EC9A /* board.2.3.xml */,
+				D8ECB9841FE9A49500D1EC9A /* board.2.4.xml */,
+				D8ECB9861FEA95E300D1EC9A /* board.2.5.xml */,
+				D8ECB9881FED6FC600D1EC9A /* board.2.6.xml */,
+				D8ECB98A1FF46CC500D1EC9A /* board.2.7.xml */,
+				D8ECB9941FF7745300D1EC9A /* board.2.8.xml */,
 			);
 			name = Boards;
 			sourceTree = "<group>";
@@ -330,6 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				D8B0B2601FB63662003AA69E /* Deletethem */,
+				D832EE831FDD36EC0058A6B5 /* Levels */,
 				D83D00151FA9297400B4C0F6 /* Boards */,
 				D83D000A1FA9294B00B4C0F6 /* Fences */,
 				D83D00011FA9292200B4C0F6 /* Tables */,
@@ -384,6 +447,7 @@
 				D83DFF9B1FA9281C00B4C0F6 /* SmallBoardController.swift */,
 				D83DFF921FA9281B00B4C0F6 /* SplashViewController.swift */,
 				D83DFF951FA9281B00B4C0F6 /* TurnsXML.swift */,
+				D832EE881FDD54260058A6B5 /* FloorXmL.swift */,
 			);
 			name = General;
 			sourceTree = "<group>";
@@ -393,7 +457,7 @@
 			children = (
 				D83DFFF01FA9290C00B4C0F6 /* Cleanomat.swift */,
 				D83DFFE81FA9290B00B4C0F6 /* DeadInstructable.swift */,
-				D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobot.swift */,
+				D83DFFEB1FA9290B00B4C0F6 /* DoorControlRobotDelete.swift */,
 				D83DFFE11FA9290A00B4C0F6 /* ExitRobot.swift */,
 				D83DFFE41FA9290B00B4C0F6 /* GreenMouseRobot.swift */,
 				D83DFFE21FA9290A00B4C0F6 /* InstructableRobot.swift */,
@@ -407,6 +471,10 @@
 				D83DFFE71FA9290B00B4C0F6 /* SetupRobot.swift */,
 				D83DFFEC1FA9290B00B4C0F6 /* SweeperRobot.swift */,
 				D83DFFE91FA9290B00B4C0F6 /* XMLCrawler.swift */,
+				D8C2C4171FDB43F3000FC864 /* SoapRobot.swift */,
+				D8C2C4191FDB5354000FC864 /* SoapSudRobot.swift */,
+				D8ECB98E1FF51D9400D1EC9A /* PolishedFloorRobot.swift */,
+				D8ECB9901FF6B1D700D1EC9A /* PolisherRobot.swift */,
 			);
 			name = Robots;
 			sourceTree = "<group>";
@@ -438,6 +506,7 @@
 				D83DFFC71FA928EA00B4C0F6 /* NumberView.swift */,
 				D83DFFC61FA928EA00B4C0F6 /* PowerView.swift */,
 				D83DFFC81FA928EA00B4C0F6 /* SplashToaster.swift */,
+				D8ECB98C1FF4EB1900D1EC9A /* LaundryFinishedView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -462,6 +531,11 @@
 			children = (
 				D8B0B2611FB63698003AA69E /* testing.storyboard */,
 				D8B0B2631FB63738003AA69E /* TestViewController.swift */,
+				D8ECB9781FE1F63A00D1EC9A /* Test2ViewController.swift */,
+				D8ECB97A1FE5448200D1EC9A /* FenceDoor2.swift */,
+				D8ECB97C1FE544ED00D1EC9A /* Fence2.swift */,
+				D8ECB97E1FE545B800D1EC9A /* FencePosition2.swift */,
+				D8ECB9801FE5BDD600D1EC9A /* Fence2View.swift */,
 			);
 			name = Deletethem;
 			sourceTree = "<group>";
@@ -598,19 +672,30 @@
 				D83D00271FA9298200B4C0F6 /* board.1.7.xml in Resources */,
 				D83D00241FA9298200B4C0F6 /* board.1.6.xml in Resources */,
 				D83D00281FA9298200B4C0F6 /* board.1.9.xml in Resources */,
+				D832EE871FDD41FC0058A6B5 /* Level.2.xml in Resources */,
 				D83DFF681FA9243300B4C0F6 /* LaunchScreen.storyboard in Resources */,
+				D8ECB9851FE9A49500D1EC9A /* board.2.4.xml in Resources */,
 				D83D002F1FA92EC400B4C0F6 /* StoryItems.storyboard in Resources */,
+				D832EE821FDC82020058A6B5 /* board.1.2x.xml in Resources */,
+				D832EE8B1FDD799D0058A6B5 /* board.2.1.xml in Resources */,
+				D832EE8D1FDDC2190058A6B5 /* board.2.2.xml in Resources */,
 				D83D00261FA9298200B4C0F6 /* board.1.4.xml in Resources */,
 				D83D00291FA9298200B4C0F6 /* board.1.8.xml in Resources */,
 				D8B0B2621FB63698003AA69E /* testing.storyboard in Resources */,
-				D83D002A1FA9298200B4C0F6 /* board.1.xxxx.xml in Resources */,
+				D8ECB98B1FF46CC500D1EC9A /* board.2.7.xml in Resources */,
+				D8ECB9951FF7745300D1EC9A /* board.2.8.xml in Resources */,
+				D832EE851FDD416C0058A6B5 /* Level.1.xml in Resources */,
+				D83D002A1FA9298200B4C0F6 /* board.1.xxx.xml in Resources */,
 				D83DFF651FA9243300B4C0F6 /* Assets.xcassets in Resources */,
+				D8ECB9831FE8717500D1EC9A /* board.2.3.xml in Resources */,
 				D83D00251FA9298200B4C0F6 /* board.1.10.xml in Resources */,
 				D83D00231FA9298200B4C0F6 /* board.1.5.xml in Resources */,
 				D83DFF631FA9243300B4C0F6 /* Main.storyboard in Resources */,
 				D83D00221FA9298200B4C0F6 /* board.1.3.xml in Resources */,
 				D83D002B1FA9298200B4C0F6 /* board.1.1.xml in Resources */,
+				D8ECB9891FED6FC600D1EC9A /* board.2.6.xml in Resources */,
 				D83D00211FA9298200B4C0F6 /* board.1.2.xml in Resources */,
+				D8ECB9871FEA95E300D1EC9A /* board.2.5.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,6 +873,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83DFF601FA9243300B4C0F6 /* ViewController.swift in Sources */,
+				D8ECB98F1FF51D9400D1EC9A /* PolishedFloorRobot.swift in Sources */,
+				D8ECB97F1FE545B800D1EC9A /* FencePosition2.swift in Sources */,
 				D83DFFF51FA9290C00B4C0F6 /* InvisibleRobot.swift in Sources */,
 				D83DFFA61FA9281D00B4C0F6 /* PlayController.swift in Sources */,
 				D83DFFCC1FA928EB00B4C0F6 /* ElectrifiedView.swift in Sources */,
@@ -801,7 +888,8 @@
 				D83DFFA01FA9281D00B4C0F6 /* InitialPlayController.swift in Sources */,
 				D83DFFAB1FA9281D00B4C0F6 /* SetupController.swift in Sources */,
 				D83DFFBA1FA928D900B4C0F6 /* StoryPageController.swift in Sources */,
-				D83DFFFB1FA9290C00B4C0F6 /* DoorControlRobot.swift in Sources */,
+				D8ECB9911FF6B1D700D1EC9A /* PolisherRobot.swift in Sources */,
+				D83DFFFB1FA9290C00B4C0F6 /* DoorControlRobotDelete.swift in Sources */,
 				D83DFFFC1FA9290C00B4C0F6 /* SweeperRobot.swift in Sources */,
 				D8B0B2641FB63738003AA69E /* TestViewController.swift in Sources */,
 				D83DFFD21FA928EB00B4C0F6 /* NumberView.swift in Sources */,
@@ -813,18 +901,23 @@
 				D83DFFDD1FA928FC00B4C0F6 /* Extensions.swift in Sources */,
 				D83DFFA51FA9281D00B4C0F6 /* BoardController.swift in Sources */,
 				D83DFFA41FA9281D00B4C0F6 /* TurnsXML.swift in Sources */,
+				D8ECB97B1FE5448200D1EC9A /* FenceDoor2.swift in Sources */,
 				D83DFFBD1FA928DA00B4C0F6 /* HelpItemPageController.swift in Sources */,
+				D8C2C4181FDB43F3000FC864 /* SoapRobot.swift in Sources */,
 				D83DFFDF1FA928FC00B4C0F6 /* Node.swift in Sources */,
 				D83D00061FA9293100B4C0F6 /* RoomTable.swift in Sources */,
 				D83DFFBE1FA928DA00B4C0F6 /* StoryController.swift in Sources */,
 				D83DFFFD1FA9290C00B4C0F6 /* LaundryRobot.swift in Sources */,
 				D83DFFDC1FA928FC00B4C0F6 /* LinkedList.swift in Sources */,
 				D83D00131FA9295900B4C0F6 /* FenceDoor.swift in Sources */,
+				D8ECB98D1FF4EB1900D1EC9A /* LaundryFinishedView.swift in Sources */,
 				D83D00091FA9293100B4C0F6 /* DBTables.swift in Sources */,
 				D83D002D1FA92A0500B4C0F6 /* PopUpView.swift in Sources */,
 				D83DFFBF1FA928DA00B4C0F6 /* HelpPlayController.swift in Sources */,
 				D83DFFF91FA9290C00B4C0F6 /* XMLCrawler.swift in Sources */,
+				D8C2C41A1FDB5354000FC864 /* SoapSudRobot.swift in Sources */,
 				D83DFFBC1FA928DA00B4C0F6 /* HelpPageViewController.swift in Sources */,
+				D8ECB9811FE5BDD600D1EC9A /* Fence2View.swift in Sources */,
 				D83DFFAC1FA9281D00B4C0F6 /* MenuViewController.swift in Sources */,
 				D83DFFDE1FA928FC00B4C0F6 /* C.swift in Sources */,
 				D83DFFFF1FA9290C00B4C0F6 /* RubbishRobot.swift in Sources */,
@@ -839,9 +932,11 @@
 				D83DFFD11FA928EB00B4C0F6 /* PowerView.swift in Sources */,
 				D83DFFA81FA9281D00B4C0F6 /* ListFloorTableController.swift in Sources */,
 				D83DFFD31FA928EB00B4C0F6 /* SplashToaster.swift in Sources */,
+				D832EE891FDD54260058A6B5 /* FloorXmL.swift in Sources */,
 				D83DFFFA1FA9290C00B4C0F6 /* PowerSwitchRobot.swift in Sources */,
 				D83DFFAA1FA9281D00B4C0F6 /* SmallBoardController.swift in Sources */,
 				D83D00001FA9290C00B4C0F6 /* Cleanomat.swift in Sources */,
+				D8ECB97D1FE544ED00D1EC9A /* Fence2.swift in Sources */,
 				D83DFFD61FA928EB00B4C0F6 /* ExplodeRubbishFinishView.swift in Sources */,
 				D83DFFBB1FA928D900B4C0F6 /* WallEmbedController.swift in Sources */,
 				D83DFFF21FA9290C00B4C0F6 /* InstructableRobot.swift in Sources */,
@@ -850,6 +945,7 @@
 				D83DFFD01FA928EB00B4C0F6 /* FlashImageView.swift in Sources */,
 				D83D00141FA9295900B4C0F6 /* Fence.swift in Sources */,
 				D83D00101FA9295900B4C0F6 /* FenceNormal.swift in Sources */,
+				D8ECB9791FE1F63A00D1EC9A /* Test2ViewController.swift in Sources */,
 				D83DFF5E1FA9243300B4C0F6 /* AppDelegate.swift in Sources */,
 				D83DFFFE1FA9290C00B4C0F6 /* MouseRobot.swift in Sources */,
 				D83D00081FA9293100B4C0F6 /* DBConnection.swift in Sources */,

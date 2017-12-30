@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9pd-C7-L5y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kfw-WP-25h">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -42,6 +43,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aiv-EM-Fd3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1117.5999999999999" y="625.63718140929541"/>
+        </scene>
+        <!--Test2 View Controller-->
+        <scene sceneID="245-jI-I8R">
+            <objects>
+                <viewController id="kfw-WP-25h" customClass="Test2ViewController" customModule="Cleanobot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YVx-jf-pT2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7PZ-cD-W6J">
+                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="200"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LLJ-Wz-ZLy" customClass="Fence2View" customModule="Cleanobot" customModuleProvider="target">
+                                <rect key="frame" x="24" y="224" width="188" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="1y1-yA-hZd"/>
+                                    <constraint firstAttribute="width" constant="188" id="kdd-Vs-7p0"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDa-fW-O5M">
+                                <rect key="frame" x="313" y="20" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="pressButton:" destination="kfw-WP-25h" eventType="touchUpInside" id="c6q-iI-LlU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LLJ-Wz-ZLy" firstAttribute="top" secondItem="7PZ-cD-W6J" secondAttribute="bottom" constant="24" id="1Ed-Yx-iqY"/>
+                            <constraint firstItem="7PZ-cD-W6J" firstAttribute="top" secondItem="YVx-jf-pT2" secondAttribute="top" id="Bpm-ji-fyr"/>
+                            <constraint firstItem="UDa-fW-O5M" firstAttribute="top" secondItem="Nel-EO-Cob" secondAttribute="top" id="Olc-nO-gt1"/>
+                            <constraint firstItem="7PZ-cD-W6J" firstAttribute="leading" secondItem="Nel-EO-Cob" secondAttribute="leading" id="UR8-yk-yiC"/>
+                            <constraint firstItem="7PZ-cD-W6J" firstAttribute="trailing" secondItem="Nel-EO-Cob" secondAttribute="trailing" multiplier="0.5" id="VuN-er-wIQ"/>
+                            <constraint firstItem="Nel-EO-Cob" firstAttribute="trailing" secondItem="UDa-fW-O5M" secondAttribute="trailing" constant="16" id="e16-hb-DF6"/>
+                            <constraint firstItem="7PZ-cD-W6J" firstAttribute="bottom" secondItem="Nel-EO-Cob" secondAttribute="bottom" multiplier="0.3" id="qtp-84-kea"/>
+                            <constraint firstItem="LLJ-Wz-ZLy" firstAttribute="leading" secondItem="Nel-EO-Cob" secondAttribute="leading" constant="24" id="vwz-UC-gGK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nel-EO-Cob"/>
+                    </view>
+                    <connections>
+                        <outlet property="fenceview" destination="LLJ-Wz-ZLy" id="F9O-6H-rDW"/>
+                        <outlet property="imageViews" destination="7PZ-cD-W6J" id="sRY-jI-eNU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4F-J9-6FQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-404" y="863.1184407796103"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KJs-fX-GKM">

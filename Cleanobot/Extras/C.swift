@@ -8,12 +8,14 @@
 
 import Foundation
 class C {
-    static let ROBOT_TYPES = ["clear","rubbish","laundry","sweeper","ook"]
+    static let ROBOT_TYPES = ["clear","rubbish","laundry","sweeper","ook","soapy","polisher"]
     static let RUBBISH = "rubbish"
     static let LAUNDRY = "laundry"
     static let SWEEPER = "sweeper"
     static let MOUSE = "mouse"
     static let OOK = "ook"
+    static let SOAPY = "soapy"
+    static let POLISHER = "polisher"
     static let VOLUME = "volume"
     static let DIR_SEQUENCE: [Direction] = [.right, .up, .left, .down, .right, .up, .left, .down]
     static let TOTAL_TURNS = 80
@@ -44,4 +46,58 @@ class C {
     static let MAXPAGE = "maxpage"
     static let STARTPAGE = "startPage"
     static let STORY_STORYBOARD = "StoryItems"
+    static let FLOOR = "floor"
+}
+enum Direction: String {
+    case left
+    case up
+    case right
+    case down
+}
+enum FenceType: String {
+    case none
+    case normal
+    case electrified
+    case edge
+}
+
+enum Action: Int {
+    case right = 0
+    case left = 1
+    case activate = 2
+    case nop = -1
+    case insert = 3 // only useful for dragging
+    case delete = 4 // only useful for dragging
+    
+}
+
+enum RobotType: Int {
+    case clear = 0
+    case rubbish = 1
+    case laundry = 2
+    case sweeper = 3
+    case mouse = 4
+    case ook = 5
+    case soapy = 6
+    case polisher = 7
+    
+}
+
+struct RoomCell {
+    var health: Int?
+    var capacity: Int?
+    var happiness: Int?
+}
+enum TurnDir : Int {
+    case clock = 3
+    case anticlock = 1
+    case opposite = 2
+}
+enum CauseOfDeath {
+    case damage
+    case timeout
+    case survived
+    case electrocuted
+    case capacityExceeded
+    case laundry
 }

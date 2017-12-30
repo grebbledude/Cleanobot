@@ -1,0 +1,54 @@
+<board count2="5" floor="2" room="8" count0="12" count1="12">
+    <move>
+        <polisher direction="right" />
+    </move>
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>left</turn>
+    <move />
+    <turn>left</turn>
+    <move />
+    <move />
+    <move>
+        <fence type="electric" direction="down" />
+    </move>
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move>
+        <fence type="electric" direction="up" />
+    </move>
+    <move />
+    <move />
+    <move />
+    <turn>left</turn>
+    <move />
+    <turn>left</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move />
+    <move />
+    <move />
+    <move />
+</board>
+

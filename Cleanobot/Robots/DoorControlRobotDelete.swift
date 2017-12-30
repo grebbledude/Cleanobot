@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class DoorControlRobot: InvisibleRobot {
+class DoorControlRobotDelete: InvisibleRobot {
     override func canMove(fence: FenceType) -> Bool {
         return false // never moves
     }

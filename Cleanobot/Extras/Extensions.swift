@@ -68,55 +68,5 @@ extension UIView {
         self.layer.rasterizationScale = scale ? UIScreen.main.scale : 1
     }
 }
-enum Direction: String {
-    case left
-    case up
-    case right
-    case down
-}
-enum FenceType: String {
-    case none
-    case normal
-    case electrified
-    case edge
-}
 
-enum Action: Int {
-    case right = 0
-    case left = 1
-    case activate = 2
-    case nop = -1
-    case insert = 3 // only useful for dragging
-    case delete = 4 // only useful for dragging
-    
-}
-
-enum RobotType: Int {
-    case clear = 0
-    case rubbish = 1
-    case laundry = 2
-    case sweeper = 3
-    case mouse = 4
-    case ook = 5
-    
-}
-
-struct RoomCell {
-    var health: Int?
-    var capacity: Int?
-    var happiness: Int?
-}
-enum TurnDir : Int {
-    case clock = 3
-    case anticlock = 1
-    case opposite = 2
-}
-enum CauseOfDeath {
-    case damage
-    case timeout
-    case cleaner
-    case survived
-    case electrocuted
-    case capacityExceeded
-}
 
