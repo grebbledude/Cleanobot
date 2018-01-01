@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class PolishedFloorRobot: Robot {
+class PolishedFloorRobot: NonInteractingRobot {
     override func getImageString() -> String {
         return "polishedImage"
     }
