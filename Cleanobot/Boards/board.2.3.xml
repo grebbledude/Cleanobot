@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<board count2="0" floor="2" room="3" count0="6" count1="6">
+<board count2="0" floor="2" room="3" count0="4" count1="4"  maxpage="13">
     <move>
         <fence type="door" doorStatus="open" direction="right" />
         <fence type="door" doorStatus="closed" direction="down" />
@@ -45,7 +45,7 @@
         <fence type="door" doorStatus="open" direction="down" />
     </move>
     <move>
-        <fence type="door" doorStatus="closed" direction="left" />
+        <fence type="door" doorStatus="open" direction="left" />
     </move>
     <move />
     <move>
@@ -74,7 +74,9 @@
     <turn>left</turn>
     <move />
     <turn>left</turn>
-    <move />
+    <move>
+        <rubbish volume="1" />
+    </move>
     <move>
         <soapy direction="right" />
     </move>
@@ -87,6 +89,7 @@
     </move>
     <move>
         <fence type="normal" direction="down" />
+        <rubbish volume="1" />
     </move>
     <turn>right</turn>
     <move>

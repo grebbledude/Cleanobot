@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<board count2="2" floor="4" room="4" count0="16" count1="13" maxpage="14">
+    <move>
+        <fence type="door" doorStatus="open" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+        <fence type="door" doorStatus="open" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move />
+    <move>
+        <rubbish volume="2" />
+    </move>
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="left" />
+        <fence type="normal" direction="down" />
+        <sweeper direction="up" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+        <fence type="normal" direction="down" />
+    </move>
+    <move>
+        <fence type="door" doorStatus="open" direction="up" />
+    </move>
+    <move>
+        <fence type="door" doorStatus="opening" direction="left" />
+        <fence type="door" doorStatus="open" direction="up" />
+    </move>
+    <move>
+        <fence type="door" doorStatus="opening" direction="right" />
+        <fence type="door" doorStatus="open" direction="down" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="normal" direction="right" />
+        <fence type="door" doorStatus="open" direction="up" />
+        <fence type="door" doorStatus="closed" direction="down" />
+        <rubbish volume="1" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move />
+    <move>
+        <fence type="normal" direction="right" />
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+        <fence type="normal" direction="up" />
+    </move>
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move />
+    <move />
+    <move>
+        <fence type="door" doorStatus="opening" direction="up" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <mouse direction="left" />
+    </move>
+    <turn>left</turn>
+    <move />
+    <move />
+    <move>
+        <fence type="normal" direction="right" />
+        <fence type="electric" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="down" />
+        <rubbish volume="3" />
+    </move>
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <turn>right</turn>
+    <move />
+    <move>
+        <fence type="electric" direction="up" />
+        <sweeper direction="right" />
+    </move>
+    <move>
+        <soapy direction="left" />
+    </move>
+    <move />
+    <move />
+</board>
+
+

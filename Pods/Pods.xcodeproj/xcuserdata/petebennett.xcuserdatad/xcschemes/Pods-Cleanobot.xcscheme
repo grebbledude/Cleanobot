@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4FFC48A14EE67652410F2F0706CE470"
+               BlueprintIdentifier = "C1EC28BFCF802B924962E3A708447ADC"
                BuildableName = "Pods_Cleanobot.framework"
                BlueprintName = "Pods-Cleanobot"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B4FFC48A14EE67652410F2F0706CE470"
+            BlueprintIdentifier = "C1EC28BFCF802B924962E3A708447ADC"
             BuildableName = "Pods_Cleanobot.framework"
             BlueprintName = "Pods-Cleanobot"
             ReferencedContainer = "container:Pods.xcodeproj">

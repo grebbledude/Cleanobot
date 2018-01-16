@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<board count2="0" floor="2" room="1" count0="5" count1="3">
+<board count2="0" floor="2" room="1" count0="5" count1="3" maxpage="12">
     <move>
         <fence type="normal" direction="down" />
     </move>
@@ -56,6 +56,7 @@
     <move>
         <fence type="electric" direction="right" />
         <fence type="normal" direction="up" />
+        <rubbish volume="1" />
     </move>
     <move>
         <sweeper direction="left" />

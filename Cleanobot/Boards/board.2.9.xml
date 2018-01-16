@@ -1,94 +1,93 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<board count2="1" floor="1" room="10" count0="12" count1="4" final="true" maxpage="11">
+<board count2="2" floor="2" room="9" count0="4" count1="9">
     <move />
-    <move />
-    <move />
-    <move>
-        <fence type="normal" direction="right" />
-    </move>
-    <move>
-        <fence type="normal" direction="left" />
-    </move>
-    <turn>right</turn>
-    <move>
-        <fence type="normal" direction="left" />
-        <mouse direction="down" />
-    </move>
-    <turn>right</turn>
-    <move>
-        <fence type="normal" direction="right" />
-        <fence type="normal" direction="down" />
-        <sweeper direction="left" />
-    </move>
-    <move>
-        <fence type="normal" direction="left" />
-    </move>
-    <move>
-        <fence type="normal" direction="right" />
-        <fence type="electric" direction="down" />
-    </move>
-    <move />
-    <move />
-    <turn>left</turn>
-    <move />
-    <turn>left</turn>
     <move>
         <fence type="electric" direction="right" />
     </move>
     <move>
         <fence type="electric" direction="left" />
-        <fence type="electric" direction="up" />
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+        <polisher direction="down" />
+    </move>
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+        <soapy direction="left" />
+    </move>
+    <move>
+        <polisher direction="left" />
+    </move>
+    <move />
+    <move />
+    <turn>left</turn>
+    <move />
+    <turn>left</turn>
+    <move>
         <sweeper direction="right" />
     </move>
     <move>
-        <fence type="electric" direction="right" />
-    </move>
-    <move>
-        <fence type="electric" direction="left" />
-        <fence type="normal" direction="up" />
-    </move>
-    <move />
-    <turn>right</turn>
-    <move />
-    <turn>right</turn>
-    <move />
-    <move />
-    <move>
-        <fence type="normal" direction="left" />
-        <fence type="electric" direction="down" />
-    </move>
-    <move>
         <fence type="normal" direction="right" />
     </move>
     <move>
-        <fence type="normal" direction="down" />
+        <fence type="normal" direction="left" />
+    </move>
+    <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move />
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+        <sweeper direction="left" />
+    </move>
+    <move>
+        <fence type="electric" direction="down" />
+    </move>
+    <move>
+        <fence type="electric" direction="down" />
     </move>
     <turn>left</turn>
     <move>
-        <fence type="normal" direction="up" />
-    </move>
-    <turn>left</turn>
-    <move>
-        <fence type="electric" direction="right" />
-        <rubbish volume="2" />
-    </move>
-    <move>
-        <fence type="electric" direction="left" />
         <fence type="electric" direction="up" />
     </move>
-    <move />
-    <move />
-    <move />
-    <turn>right</turn>
-    <move />
-    <turn>right</turn>
-    <move />
-    <move />
+    <turn>left</turn>
     <move>
-        <fence type="electric" direction="left" />
+        <fence type="electric" direction="up" />
     </move>
     <move>
         <fence type="electric" direction="right" />
     </move>
+    <move>
+        <fence type="electric" direction="left" />
+        <sweeper direction="up" />
+    </move>
     <move />
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <soapy direction="up" />
+    </move>
+    <move />
+    <move>
+        <laundry direction="down" />
+    </move>
+    <move />
+    <move>
+        <rubbish volume="2" />
+    </move>
 </board>

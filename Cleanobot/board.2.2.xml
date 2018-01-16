@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<board count2="3" floor="2" room="2" count0="5" count1="5">
+<board count2="3" floor="2" room="2" count0="5" count1="7">
     <move>
         <fence type="normal" direction="down" />
     </move>
@@ -15,7 +15,9 @@
     </move>
     <move />
     <turn>right</turn>
-    <move />
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
     <turn>right</turn>
     <move>
         <fence type="electric" direction="left" />
@@ -53,7 +55,7 @@
         <fence type="normal" direction="left" />
     </move>
     <move>
-        <sweeper direction="up" />
+        <fence type="normal" direction="up" />
     </move>
     <turn>right</turn>
     <move />
@@ -91,6 +93,7 @@
     </move>
     <move>
         <fence type="normal" direction="left" />
+        <sweeper direction="up" />
     </move>
     <turn>right</turn>
     <move>
@@ -107,4 +110,3 @@
     <move />
     <move />
 </board>
-

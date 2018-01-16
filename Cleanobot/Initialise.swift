@@ -17,7 +17,22 @@ class Initialise {
  
         defaults.set(10, forKey: "power")
         defaults.set(2, forKey: C.MAXPAGE)
+
         
+    }
+    static func unZipBoards() {
+        let resPath = Bundle.main.resourcePath!
+        let fileManager = FileManager.default
+        let files = try! fileManager.contentsOfDirectory(atPath: resPath)
+        for file in files {
+            let typeRange = file.index(file.endIndex, offsetBy: -3)..<file.endIndex
+            let type = file[typeRange]
+            if type == "zip" {
+                let range = file.index(file.startIndex, offsetBy: 6)..<file.index(file.endIndex, offsetBy: -4)
+                let floor = file[range]
+                UploadSection().unpackFloor(from: URL(fileURLWithPath: file), to: Int(floor)!)
+            }
+        }
     }
     static func testData(dbt : DBTables) {
         let room = RoomTable()

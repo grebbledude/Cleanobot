@@ -12,6 +12,9 @@ import UIKit
     var mBoardController: SmallBoardController?
     var mRobot: String?
     var mVisible = false
+    var mInstructions: [[Action]]?
+    var mRemaining = 0
+    var mInstructable: InstructableRobot?
     @IBInspectable var robot: String {
         get {
             if let rob = mRobot {
@@ -34,6 +37,20 @@ import UIKit
             
             let sweeper = SweeperRobot(position: position, direction: .right, board: board)
             board.addHouseRobot(robot: sweeper)
+        case "laundry":
+            
+            let laundry = LaundryRobot(position: position, direction: .right, board: board)
+            board.addHouseRobot(robot: laundry)
+        case "soapy":
+            
+            let soapy = SoapRobot(position: position, direction: .right, board: board)
+            board.addHouseRobot(robot: soapy)
+        case "polisher":
+            
+            let polisher = PolisherRobot(position: position, direction: .right, board: board)
+            board.addInstructable(robot: polisher)
+            mInstructions = [[.activate],[.nop],[.right],[.right],[.nop],[.nop],[.right],[.right]]
+            mInstructable = polisher
         default:
             break
         }
@@ -62,7 +79,17 @@ import UIKit
     }
     func doMove() {
         if mVisible {
-            mBoardController?.getBoard().doHouse(index: 0)
+            if let inst = mInstructable {
+                if mRemaining == 0 {
+                    inst.setInstructions(as: mInstructions!, for: 0)
+                    mRemaining = mInstructions!.count
+                }
+                mRemaining -= 1
+                mBoardController?.getBoard().doInstructable(index: 0)
+            } else {
+                mBoardController?.getBoard().doHouse(index: 0)
+            }
+        
         }
     }
     /*

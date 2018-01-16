@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<board count2="3" floor="2" room="10" count0="4" count1="6" final="true">
+    <move />
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <fence type="normal" direction="left" />
+    </move>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="left" />
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move>
+        <fence type="door" doorStatus="open" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="down" />
+    </move>
+    <move>
+        <fence type="normal" direction="down" />
+        <sweeper direction="right" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <turn>left</turn>
+    <move>
+        <fence type="normal" direction="up" />
+    </move>
+    <move>
+        <fence type="door" doorStatus="open" direction="up" />
+    </move>
+    <move>
+        <fence type="electric" direction="right" />
+    </move>
+    <move>
+        <fence type="electric" direction="left" />
+        <fence type="normal" direction="down" />
+    </move>
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="electric" direction="left" />
+        <fence type="normal" direction="up" />
+        <laundry direction="up" />
+    </move>
+    <move>
+        <fence type="electric" direction="right" />
+    </move>
+    <move>
+        <rubbish volume="1" />
+    </move>
+    <move />
+    <move />
+    <turn>left</turn>
+    <move />
+    <turn>left</turn>
+    <move>
+        <polisher direction="down" />
+    </move>
+    <move />
+    <move>
+        <fence type="electric" direction="right" />
+    </move>
+    <move>
+        <fence type="electric" direction="left" />
+        <fence type="electric" direction="down" />
+    </move>
+    <move />
+    <turn>right</turn>
+    <move />
+    <turn>right</turn>
+    <move>
+        <fence type="normal" direction="left" />
+        <fence type="electric" direction="up" />
+    </move>
+    <move>
+        <fence type="normal" direction="right" />
+    </move>
+    <move />
+    <move />
+    <move>
+        <laundry direction="right" />
+    </move>
+</board>

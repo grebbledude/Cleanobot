@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		7BDEA60532389430D0045B75 /* Pods_CleanobotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF8CF9CBEA667209371A10E /* Pods_CleanobotUITests.framework */; };
 		8CF7EA9E7836320F42FEEBC9 /* Pods_Cleanobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0038457DFB0FC92A32FB2AA8 /* Pods_Cleanobot.framework */; };
+		D81E47BC1FFBFAE60031611E /* board.2.9.xml in Resources */ = {isa = PBXBuildFile; fileRef = D81E47BB1FFBFAE60031611E /* board.2.9.xml */; };
+		D81E47BE1FFC20210031611E /* board.2.10.xml in Resources */ = {isa = PBXBuildFile; fileRef = D81E47BD1FFC20210031611E /* board.2.10.xml */; };
+		D81E480E20091EE80031611E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E480F20091EE80031611E /* Alamofire.framework */; };
 		D832EE821FDC82020058A6B5 /* board.1.2x.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE811FDC82020058A6B5 /* board.1.2x.xml */; };
 		D832EE851FDD416C0058A6B5 /* Level.1.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE841FDD416C0058A6B5 /* Level.1.xml */; };
 		D832EE871FDD41FC0058A6B5 /* Level.2.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE861FDD41FC0058A6B5 /* Level.2.xml */; };
 		D832EE891FDD54260058A6B5 /* FloorXmL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832EE881FDD54260058A6B5 /* FloorXmL.swift */; };
 		D832EE8B1FDD799D0058A6B5 /* board.2.1.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE8A1FDD799D0058A6B5 /* board.2.1.xml */; };
 		D832EE8D1FDDC2190058A6B5 /* board.2.2.xml in Resources */ = {isa = PBXBuildFile; fileRef = D832EE8C1FDDC2190058A6B5 /* board.2.2.xml */; };
+		D83376D8200EA19300A09838 /* floor.1.zip in Resources */ = {isa = PBXBuildFile; fileRef = D83376D6200EA19200A09838 /* floor.1.zip */; };
+		D83376D9200EA19300A09838 /* floor.2.zip in Resources */ = {isa = PBXBuildFile; fileRef = D83376D7200EA19200A09838 /* floor.2.zip */; };
 		D83D00001FA9290C00B4C0F6 /* Cleanomat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFF01FA9290C00B4C0F6 /* Cleanomat.swift */; };
 		D83D00061FA9293100B4C0F6 /* RoomTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D00021FA9293100B4C0F6 /* RoomTable.swift */; };
 		D83D00071FA9293100B4C0F6 /* FloorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83D00031FA9293100B4C0F6 /* FloorTable.swift */; };
@@ -99,8 +104,10 @@
 		D83DFFFD1FA9290C00B4C0F6 /* LaundryRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFED1FA9290B00B4C0F6 /* LaundryRobot.swift */; };
 		D83DFFFE1FA9290C00B4C0F6 /* MouseRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEE1FA9290C00B4C0F6 /* MouseRobot.swift */; };
 		D83DFFFF1FA9290C00B4C0F6 /* RubbishRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DFFEF1FA9290C00B4C0F6 /* RubbishRobot.swift */; };
+		D896085F200921F70010D53A /* UploadSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D896085E200921F70010D53A /* UploadSection.swift */; };
 		D8B0B2621FB63698003AA69E /* testing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B0B2611FB63698003AA69E /* testing.storyboard */; };
 		D8B0B2641FB63738003AA69E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0B2631FB63738003AA69E /* TestViewController.swift */; };
+		D8BFFB8E20097CBD0038A8BC /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BFFB8F20097CBD0038A8BC /* Zip.framework */; };
 		D8C2C4181FDB43F3000FC864 /* SoapRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2C4171FDB43F3000FC864 /* SoapRobot.swift */; };
 		D8C2C41A1FDB5354000FC864 /* SoapSudRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2C4191FDB5354000FC864 /* SoapSudRobot.swift */; };
 		D8ECB9791FE1F63A00D1EC9A /* Test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECB9781FE1F63A00D1EC9A /* Test2ViewController.swift */; };
@@ -147,12 +154,17 @@
 		7A9F11807AD545C6BD1ED7DB /* Pods-CleanobotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A5B8A40C5ADE58D991264470 /* Pods-CleanobotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotUITests/Pods-CleanobotUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3D48134948FDBF0129A27B9 /* Pods-CleanobotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanobotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanobotTests/Pods-CleanobotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D81E47BB1FFBFAE60031611E /* board.2.9.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = board.2.9.xml; path = Boards/board.2.9.xml; sourceTree = "<group>"; };
+		D81E47BD1FFC20210031611E /* board.2.10.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = board.2.10.xml; path = Boards/board.2.10.xml; sourceTree = "<group>"; };
+		D81E480F20091EE80031611E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D832EE811FDC82020058A6B5 /* board.1.2x.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = board.1.2x.xml; sourceTree = "<group>"; };
 		D832EE841FDD416C0058A6B5 /* Level.1.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Level.1.xml; path = Levels/Level.1.xml; sourceTree = "<group>"; };
 		D832EE861FDD41FC0058A6B5 /* Level.2.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Level.2.xml; path = Levels/Level.2.xml; sourceTree = "<group>"; };
 		D832EE881FDD54260058A6B5 /* FloorXmL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorXmL.swift; sourceTree = "<group>"; };
 		D832EE8A1FDD799D0058A6B5 /* board.2.1.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = board.2.1.xml; sourceTree = "<group>"; };
 		D832EE8C1FDDC2190058A6B5 /* board.2.2.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = board.2.2.xml; sourceTree = "<group>"; };
+		D83376D6200EA19200A09838 /* floor.1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = floor.1.zip; path = Boards/floor.1.zip; sourceTree = "<group>"; };
+		D83376D7200EA19200A09838 /* floor.2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = floor.2.zip; path = Boards/floor.2.zip; sourceTree = "<group>"; };
 		D83D00021FA9293100B4C0F6 /* RoomTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomTable.swift; sourceTree = "<group>"; };
 		D83D00031FA9293100B4C0F6 /* FloorTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorTable.swift; sourceTree = "<group>"; };
 		D83D00041FA9293100B4C0F6 /* DBConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBConnection.swift; sourceTree = "<group>"; };
@@ -243,8 +255,11 @@
 		D83DFFEE1FA9290C00B4C0F6 /* MouseRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MouseRobot.swift; path = Robots/MouseRobot.swift; sourceTree = "<group>"; };
 		D83DFFEF1FA9290C00B4C0F6 /* RubbishRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RubbishRobot.swift; path = Robots/RubbishRobot.swift; sourceTree = "<group>"; };
 		D83DFFF01FA9290C00B4C0F6 /* Cleanomat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cleanomat.swift; path = Robots/Cleanomat.swift; sourceTree = "<group>"; };
+		D896085A200920E80010D53A /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D896085E200921F70010D53A /* UploadSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadSection.swift; sourceTree = "<group>"; };
 		D8B0B2611FB63698003AA69E /* testing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = testing.storyboard; path = deletethem/testing.storyboard; sourceTree = "<group>"; };
 		D8B0B2631FB63738003AA69E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = deletethem/TestViewController.swift; sourceTree = "<group>"; };
+		D8BFFB8F20097CBD0038A8BC /* Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C2C4171FDB43F3000FC864 /* SoapRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoapRobot.swift; path = Robots/SoapRobot.swift; sourceTree = "<group>"; };
 		D8C2C4191FDB5354000FC864 /* SoapSudRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoapSudRobot.swift; sourceTree = "<group>"; };
 		D8ECB9781FE1F63A00D1EC9A /* Test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test2ViewController.swift; path = deletethem/Test2ViewController.swift; sourceTree = "<group>"; };
@@ -270,6 +285,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8BFFB8E20097CBD0038A8BC /* Zip.framework in Frameworks */,
+				D81E480E20091EE80031611E /* Alamofire.framework in Frameworks */,
 				D83DFF8D1FA924CD00B4C0F6 /* SQLite.framework in Frameworks */,
 				D83DFF8B1FA924C800B4C0F6 /* AEXML.framework in Frameworks */,
 				8CF7EA9E7836320F42FEEBC9 /* Pods_Cleanobot.framework in Frameworks */,
@@ -298,6 +315,8 @@
 		4B6E2EAA8A5736594F630ACD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8BFFB8F20097CBD0038A8BC /* Zip.framework */,
+				D81E480F20091EE80031611E /* Alamofire.framework */,
 				D83DFF8E1FA924CD00B4C0F6 /* SQLite.framework */,
 				D83DFF8C1FA924C800B4C0F6 /* AEXML.framework */,
 				0038457DFB0FC92A32FB2AA8 /* Pods_Cleanobot.framework */,
@@ -342,6 +361,8 @@
 		D83D00151FA9297400B4C0F6 /* Boards */ = {
 			isa = PBXGroup;
 			children = (
+				D83376D6200EA19200A09838 /* floor.1.zip */,
+				D83376D7200EA19200A09838 /* floor.2.zip */,
 				D83D00201FA9298200B4C0F6 /* board.1.1.xml */,
 				D83D00161FA9298100B4C0F6 /* board.1.2.xml */,
 				D83D00171FA9298100B4C0F6 /* board.1.3.xml */,
@@ -362,6 +383,8 @@
 				D8ECB9881FED6FC600D1EC9A /* board.2.6.xml */,
 				D8ECB98A1FF46CC500D1EC9A /* board.2.7.xml */,
 				D8ECB9941FF7745300D1EC9A /* board.2.8.xml */,
+				D81E47BB1FFBFAE60031611E /* board.2.9.xml */,
+				D81E47BD1FFC20210031611E /* board.2.10.xml */,
 			);
 			name = Boards;
 			sourceTree = "<group>";
@@ -369,6 +392,7 @@
 		D83DFF511FA9243300B4C0F6 = {
 			isa = PBXGroup;
 			children = (
+				D896085A200920E80010D53A /* AEXML.framework */,
 				D83DFF5C1FA9243300B4C0F6 /* Cleanobot */,
 				D83DFF711FA9243300B4C0F6 /* CleanobotTests */,
 				D83DFF7C1FA9243300B4C0F6 /* CleanobotUITests */,
@@ -436,10 +460,10 @@
 				D83DFF961FA9281B00B4C0F6 /* BoardController.swift */,
 				D83DFF901FA9281A00B4C0F6 /* BoardSquare.swift */,
 				D83DFF941FA9281B00B4C0F6 /* Debug.swift */,
+				D83DFF991FA9281C00B4C0F6 /* ListFloorTableController.swift */,
 				D83DFF8F1FA9281A00B4C0F6 /* Initialise.swift */,
 				D83DFF911FA9281A00B4C0F6 /* InitialPlayController.swift */,
 				D83DFF981FA9281C00B4C0F6 /* ListFloorController.swift */,
-				D83DFF991FA9281C00B4C0F6 /* ListFloorTableController.swift */,
 				D83DFF9D1FA9281D00B4C0F6 /* MenuViewController.swift */,
 				D83DFF971FA9281C00B4C0F6 /* PlayController.swift */,
 				D83DFF9A1FA9281C00B4C0F6 /* PortraitViewController.swift */,
@@ -448,6 +472,7 @@
 				D83DFF921FA9281B00B4C0F6 /* SplashViewController.swift */,
 				D83DFF951FA9281B00B4C0F6 /* TurnsXML.swift */,
 				D832EE881FDD54260058A6B5 /* FloorXmL.swift */,
+				D896085E200921F70010D53A /* UploadSection.swift */,
 			);
 			name = General;
 			sourceTree = "<group>";
@@ -684,10 +709,13 @@
 				D8B0B2621FB63698003AA69E /* testing.storyboard in Resources */,
 				D8ECB98B1FF46CC500D1EC9A /* board.2.7.xml in Resources */,
 				D8ECB9951FF7745300D1EC9A /* board.2.8.xml in Resources */,
+				D81E47BE1FFC20210031611E /* board.2.10.xml in Resources */,
+				D81E47BC1FFBFAE60031611E /* board.2.9.xml in Resources */,
 				D832EE851FDD416C0058A6B5 /* Level.1.xml in Resources */,
 				D83D002A1FA9298200B4C0F6 /* board.1.xxx.xml in Resources */,
 				D83DFF651FA9243300B4C0F6 /* Assets.xcassets in Resources */,
 				D8ECB9831FE8717500D1EC9A /* board.2.3.xml in Resources */,
+				D83376D8200EA19300A09838 /* floor.1.zip in Resources */,
 				D83D00251FA9298200B4C0F6 /* board.1.10.xml in Resources */,
 				D83D00231FA9298200B4C0F6 /* board.1.5.xml in Resources */,
 				D83DFF631FA9243300B4C0F6 /* Main.storyboard in Resources */,
@@ -696,6 +724,7 @@
 				D8ECB9891FED6FC600D1EC9A /* board.2.6.xml in Resources */,
 				D83D00211FA9298200B4C0F6 /* board.1.2.xml in Resources */,
 				D8ECB9871FEA95E300D1EC9A /* board.2.5.xml in Resources */,
+				D83376D9200EA19300A09838 /* floor.2.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,12 +849,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Cleanobot/Pods-Cleanobot-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -934,6 +967,7 @@
 				D83DFFD31FA928EB00B4C0F6 /* SplashToaster.swift in Sources */,
 				D832EE891FDD54260058A6B5 /* FloorXmL.swift in Sources */,
 				D83DFFFA1FA9290C00B4C0F6 /* PowerSwitchRobot.swift in Sources */,
+				D896085F200921F70010D53A /* UploadSection.swift in Sources */,
 				D83DFFAA1FA9281D00B4C0F6 /* SmallBoardController.swift in Sources */,
 				D83D00001FA9290C00B4C0F6 /* Cleanomat.swift in Sources */,
 				D8ECB97D1FE544ED00D1EC9A /* Fence2.swift in Sources */,

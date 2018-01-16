@@ -71,12 +71,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashbackdrop" translatesAutoresizingMaskIntoConstraints="NO" id="pCt-p2-x8S">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SQ5-UK-GKm">
                                 <rect key="frame" x="36" y="28" width="315" height="631"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Y6-RQ-90O">
                                         <rect key="frame" x="0.0" y="0.0" width="315" height="315.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ookGreen" translatesAutoresizingMaskIntoConstraints="NO" id="E7W-2A-1mz">
                                         <rect key="frame" x="0.0" y="315.5" width="315" height="315.5"/>
@@ -88,7 +90,6 @@
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XWU-L4-IlM" customClass="SplashToaster" customModule="Cleanobot" customModuleProvider="target">
                                 <rect key="frame" x="16" y="28" width="631" height="631"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="XWU-L4-IlM" secondAttribute="height" multiplier="1:1" id="xlc-cL-AsF"/>
                                 </constraints>
@@ -98,10 +99,14 @@
                         <constraints>
                             <constraint firstItem="SQ5-UK-GKm" firstAttribute="top" secondItem="tc2-9n-itD" secondAttribute="bottom" constant="8" id="3Qb-Gb-tSZ"/>
                             <constraint firstItem="eqU-pQ-m0s" firstAttribute="top" secondItem="SQ5-UK-GKm" secondAttribute="bottom" constant="8" id="LBJ-8s-J4E"/>
+                            <constraint firstItem="pCt-p2-x8S" firstAttribute="width" secondItem="1Tl-uh-ok2" secondAttribute="width" id="LZQ-cR-aVB"/>
+                            <constraint firstItem="pCt-p2-x8S" firstAttribute="leading" secondItem="1Tl-uh-ok2" secondAttribute="leading" id="dku-VA-9lX"/>
                             <constraint firstItem="eqU-pQ-m0s" firstAttribute="top" secondItem="XWU-L4-IlM" secondAttribute="bottom" constant="8" id="e68-c9-oYE"/>
                             <constraint firstItem="XWU-L4-IlM" firstAttribute="leading" secondItem="1Tl-uh-ok2" secondAttribute="leadingMargin" id="gB7-or-wss"/>
                             <constraint firstItem="XWU-L4-IlM" firstAttribute="top" secondItem="tc2-9n-itD" secondAttribute="bottom" constant="8" id="j4d-VB-Wid"/>
+                            <constraint firstItem="pCt-p2-x8S" firstAttribute="height" secondItem="1Tl-uh-ok2" secondAttribute="height" id="j7g-Lu-Clz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SQ5-UK-GKm" secondAttribute="trailing" constant="8" id="qx1-2L-9kP"/>
+                            <constraint firstItem="pCt-p2-x8S" firstAttribute="top" secondItem="1Tl-uh-ok2" secondAttribute="top" id="yAZ-in-nWk"/>
                         </constraints>
                     </view>
                     <connections>
@@ -115,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1O3-HC-IEz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1775" y="2024"/>
+            <point key="canvasLocation" x="-1775.2" y="2023.5382308845578"/>
         </scene>
         <!--Help Item Page Controller-->
         <scene sceneID="reQ-ku-5VA">
@@ -1032,21 +1037,28 @@
                                 <rect key="frame" x="335" y="28" width="40" height="283.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47t-Nb-xd6">
-                                        <rect key="frame" x="0.0" y="0.0" width="40" height="94.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="71"/>
                                         <state key="normal" image="play"/>
                                         <connections>
                                             <action selector="firstPressed:" destination="3eX-gh-Fpb" eventType="touchUpInside" id="Arb-oF-bgK"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WO-Un-evd">
-                                        <rect key="frame" x="0.0" y="94.5" width="40" height="94.5"/>
+                                        <rect key="frame" x="0.0" y="71" width="40" height="71"/>
                                         <state key="normal" title="Button" image="reset"/>
                                         <connections>
                                             <action selector="pressReset:" destination="3eX-gh-Fpb" eventType="touchUpInside" id="yau-Oo-FL5"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2f-sS-5xE">
+                                        <rect key="frame" x="0.0" y="142" width="40" height="70.5"/>
+                                        <state key="normal" title="Button" image="hintImage"/>
+                                        <connections>
+                                            <action selector="pressHint:" destination="3eX-gh-Fpb" eventType="touchUpInside" id="dnJ-8D-pMB"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ips-Cx-hyh">
-                                        <rect key="frame" x="0.0" y="189" width="40" height="94.5"/>
+                                        <rect key="frame" x="0.0" y="212.5" width="40" height="71"/>
                                         <state key="normal" image="quit"/>
                                         <connections>
                                             <action selector="pressDismiss:" destination="3eX-gh-Fpb" eventType="touchUpInside" id="dKW-iO-NYn"/>
@@ -1159,6 +1171,7 @@
                         <outlet property="happinessNum" destination="LdQ-Mp-eyX" id="aO0-ch-5rT"/>
                         <outlet property="healthNum" destination="SSB-lV-t77" id="BX7-Pg-71w"/>
                         <outlet property="heartImage" destination="bhW-Na-6Bo" id="Osi-J8-NyU"/>
+                        <outlet property="hintButton" destination="g2f-sS-5xE" id="3Iv-ei-5TD"/>
                         <outlet property="insertImage" destination="DPv-Nn-f83" id="Uty-Lf-Ls7"/>
                         <outlet property="instCount1" destination="SDQ-2j-po9" id="eg7-CH-HGA"/>
                         <outlet property="instCount2" destination="GSB-tM-x9D" id="OUB-W1-MiI"/>
@@ -1213,401 +1226,6 @@
                 </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="448.80000000000001" y="1924.5877061469266"/>
-        </scene>
-        <!--Play Controller-->
-        <scene sceneID="0vi-tS-m15">
-            <objects>
-                <viewController id="lTo-iD-DJc" customClass="PlayController" customModule="Cleanobot" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="HWe-DY-UOa"/>
-                        <viewControllerLayoutGuide type="bottom" id="ENa-PX-nHq"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="O4v-If-oxH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DWu-SM-9aL">
-                                <rect key="frame" x="24" y="319.5" width="327" height="62.5"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="C27-5g-heJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="65.5" height="62.5"/>
-                                        <subviews>
-                                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightImage" translatesAutoresizingMaskIntoConstraints="NO" id="cdq-6D-f8d">
-                                                <rect key="frame" x="0.0" y="0.0" width="65.5" height="40"/>
-                                                <gestureRecognizers/>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="ICa-Dd-75M" appends="YES" id="8Pr-Nb-5Hy"/>
-                                                </connections>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4k-cW-iEF">
-                                                <rect key="frame" x="0.0" y="42" width="65.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Suj-hr-4uk">
-                                        <rect key="frame" x="65.5" y="0.0" width="65.5" height="62.5"/>
-                                        <subviews>
-                                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leftImage" translatesAutoresizingMaskIntoConstraints="NO" id="ebB-9P-SCn">
-                                                <rect key="frame" x="0.0" y="0.0" width="65.5" height="40"/>
-                                                <gestureRecognizers/>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="U9i-9R-dBv" appends="YES" id="qwX-zT-bNZ"/>
-                                                </connections>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoC-dA-b2q">
-                                                <rect key="frame" x="0.0" y="42" width="65.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="A8s-ha-kYo">
-                                        <rect key="frame" x="131" y="0.0" width="65" height="62.5"/>
-                                        <subviews>
-                                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wrenchImage" translatesAutoresizingMaskIntoConstraints="NO" id="Gfs-LT-dnD">
-                                                <rect key="frame" x="0.0" y="0.0" width="65" height="40"/>
-                                                <gestureRecognizers/>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="abN-JW-ByS" appends="YES" id="krU-ml-8Wq"/>
-                                                </connections>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3o-1x-qTL">
-                                                <rect key="frame" x="0.0" y="42" width="65" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="JPw-qD-cc2">
-                                        <rect key="frame" x="196" y="0.0" width="65.5" height="62.5"/>
-                                        <subviews>
-                                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insertimage" translatesAutoresizingMaskIntoConstraints="NO" id="ciV-xB-MNk">
-                                                <rect key="frame" x="0.0" y="0.0" width="65.5" height="40"/>
-                                                <gestureRecognizers/>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="wCe-3q-N4c" appends="YES" id="ac1-Co-BDH"/>
-                                                </connections>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="insert" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCI-11-q0n">
-                                                <rect key="frame" x="0.0" y="42" width="65.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Z3a-4e-iNm">
-                                        <rect key="frame" x="261.5" y="0.0" width="65.5" height="62.5"/>
-                                        <subviews>
-                                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deleteimage" translatesAutoresizingMaskIntoConstraints="NO" id="b3f-Ic-Uwi">
-                                                <rect key="frame" x="0.0" y="0.0" width="65.5" height="40"/>
-                                                <gestureRecognizers/>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="HZQ-Io-Bkf" appends="YES" id="SEd-YW-hxV"/>
-                                                </connections>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="delete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8v-rS-wPl">
-                                                <rect key="frame" x="0.0" y="42" width="65.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="ebB-9P-SCn" firstAttribute="height" secondItem="cdq-6D-f8d" secondAttribute="height" id="VKR-It-5of"/>
-                                    <constraint firstItem="Gfs-LT-dnD" firstAttribute="height" secondItem="cdq-6D-f8d" secondAttribute="height" id="pHH-TU-www"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="tJd-D6-uhs">
-                                <rect key="frame" x="8" y="389.5" width="359" height="40"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stopwatch" translatesAutoresizingMaskIntoConstraints="NO" id="4Dc-g4-L26">
-                                        <rect key="frame" x="0.0" y="0.0" width="58" height="40"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVn-IY-LXg">
-                                        <rect key="frame" x="60" y="0.0" width="58.5" height="40"/>
-                                        <state key="normal" title="Button" image="robotImage"/>
-                                        <connections>
-                                            <action selector="pressRobot:" destination="lTo-iD-DJc" eventType="touchUpInside" id="xwc-mG-q7v"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePs-31-lB9">
-                                        <rect key="frame" x="120.5" y="0.0" width="58" height="40"/>
-                                        <state key="normal" title="Button" image="noentryImage"/>
-                                        <connections>
-                                            <action selector="pressRobot:" destination="lTo-iD-DJc" eventType="touchUpInside" id="AAk-XZ-DTA"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYJ-qJ-b03">
-                                        <rect key="frame" x="180.5" y="0.0" width="58" height="40"/>
-                                        <state key="normal" title="Button" image="noentryImage"/>
-                                        <connections>
-                                            <action selector="pressRobot:" destination="lTo-iD-DJc" eventType="touchUpInside" id="DXx-4X-yFp"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dee-LO-TRp">
-                                        <rect key="frame" x="240.5" y="0.0" width="58.5" height="40"/>
-                                        <state key="normal" title="Button" image="noentryImage"/>
-                                        <connections>
-                                            <action selector="pressRobot:" destination="lTo-iD-DJc" eventType="touchUpInside" id="M60-3f-z4k"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osF-G0-HVu">
-                                        <rect key="frame" x="301" y="0.0" width="58" height="40"/>
-                                        <state key="normal" title="Button" image="noentryImage"/>
-                                        <connections>
-                                            <action selector="pressRobot:" destination="lTo-iD-DJc" eventType="touchUpInside" id="Nt3-qH-awR"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="drf-UP-fSn">
-                                <rect key="frame" x="8" y="437.5" width="359" height="229.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="turn" id="QxA-Cl-gfA" customClass="TurnCell" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="359" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QxA-Cl-gfA" id="M2M-qq-Csl">
-                                            <rect key="frame" x="0.0" y="0.0" width="359" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="myL-xl-f1y">
-                                                    <rect key="frame" x="0.0" y="0.0" width="359" height="43"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifg-vh-gGF">
-                                                            <rect key="frame" x="0.0" y="0.0" width="58" height="43"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q9k-w9-u0i" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                                            <rect key="frame" x="60" y="0.0" width="58.5" height="43"/>
-                                                        </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2a-im-QWZ" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                                            <rect key="frame" x="120.5" y="0.0" width="58" height="43"/>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="47L-HW-urr" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                                            <rect key="frame" x="180.5" y="0.0" width="58" height="43"/>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E5J-yh-luX" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                                            <rect key="frame" x="240.5" y="0.0" width="58.5" height="43"/>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tP3-oC-tCT" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                                            <rect key="frame" x="301" y="0.0" width="58" height="43"/>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </view>
-                                                    </subviews>
-                                                </stackView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="myL-xl-f1y" secondAttribute="bottom" id="FRI-jf-XWD"/>
-                                                <constraint firstAttribute="trailing" secondItem="myL-xl-f1y" secondAttribute="trailing" id="jGv-FG-LDQ"/>
-                                                <constraint firstItem="myL-xl-f1y" firstAttribute="top" secondItem="M2M-qq-Csl" secondAttribute="top" id="kG7-Lj-CDF"/>
-                                                <constraint firstItem="myL-xl-f1y" firstAttribute="leading" secondItem="M2M-qq-Csl" secondAttribute="leading" id="nDH-jH-NCh"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="turnLabel" destination="Ifg-vh-gGF" id="JW0-xr-ybs"/>
-                                            <outlet property="turnMe1" destination="q9k-w9-u0i" id="8GL-cR-LHT"/>
-                                            <outlet property="turnMe2" destination="L2a-im-QWZ" id="Ogp-0D-D0s"/>
-                                            <outlet property="turnMe3" destination="47L-HW-urr" id="pkT-pt-nvq"/>
-                                            <outlet property="turnMe4" destination="E5J-yh-luX" id="e2H-hW-hyJ"/>
-                                            <outlet property="turnMe5" destination="tP3-oC-tCT" id="KfM-3u-N83"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cyi-Wc-4jc">
-                                <rect key="frame" x="335" y="28" width="40" height="283.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCP-zQ-0qP">
-                                        <rect key="frame" x="0.0" y="0.0" width="40" height="94.5"/>
-                                        <state key="normal" image="play"/>
-                                        <connections>
-                                            <action selector="firstPressed:" destination="lTo-iD-DJc" eventType="touchUpInside" id="Oiq-X5-pg5"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99U-pe-JU1">
-                                        <rect key="frame" x="0.0" y="94.5" width="40" height="94.5"/>
-                                        <state key="normal" title="Button" image="reset"/>
-                                        <connections>
-                                            <action selector="pressReset:" destination="lTo-iD-DJc" eventType="touchUpInside" id="321-Jw-ZZ9"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NY-eU-HI4">
-                                        <rect key="frame" x="0.0" y="189" width="40" height="94.5"/>
-                                        <state key="normal" image="quit"/>
-                                        <connections>
-                                            <action selector="pressDismiss:" destination="lTo-iD-DJc" eventType="touchUpInside" id="2HA-8u-LwM"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="CgD-70-M5k"/>
-                                    <constraint firstAttribute="trailing" secondItem="eCP-zQ-0qP" secondAttribute="trailing" id="O4k-sn-cbX"/>
-                                    <constraint firstItem="eCP-zQ-0qP" firstAttribute="leading" secondItem="cyi-Wc-4jc" secondAttribute="leading" id="euE-Ac-26a"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lmr-iF-dbo">
-                                <rect key="frame" x="0.0" y="28" width="35.5" height="283.5"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRh-MO-cLQ" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="35.5" height="35.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="WRh-MO-cLQ" secondAttribute="height" multiplier="1:1" id="z4i-xp-DBw"/>
-                                        </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="heartImage"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsa-kY-ba0" customClass="NumberView" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="35.5" width="35.5" height="35.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sG0-2A-vqC" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="71" width="35.5" height="35.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="boltImage"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gk-h9-Woa" customClass="PowerView" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="106.5" width="35.5" height="35.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIb-VE-u9W" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="142" width="35.5" height="35"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="binImage"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tbj-gZ-7bA" customClass="NumberView" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="177" width="35.5" height="35.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXh-s4-ZSe" customClass="FlashImageView" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="212.5" width="35.5" height="35.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="happyImage"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rW8-Q0-u5j" customClass="NumberView" customModule="Cleanobot" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="248" width="35.5" height="35.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
-                            </stackView>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4tl-Df-lqh">
-                                <rect key="frame" x="43.5" y="28" width="283.5" height="283.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="4tl-Df-lqh" secondAttribute="height" multiplier="1:1" id="aKx-F7-iw3"/>
-                                </constraints>
-                            </containerView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="cyi-Wc-4jc" firstAttribute="top" secondItem="HWe-DY-UOa" secondAttribute="bottom" constant="8" id="0bI-zd-Xhd"/>
-                            <constraint firstAttribute="trailing" secondItem="tJd-D6-uhs" secondAttribute="trailing" constant="8" id="4CB-lb-6Yw"/>
-                            <constraint firstItem="drf-UP-fSn" firstAttribute="leading" secondItem="O4v-If-oxH" secondAttribute="leading" constant="8" id="66t-EL-PJa"/>
-                            <constraint firstItem="4tl-Df-lqh" firstAttribute="height" secondItem="lmr-iF-dbo" secondAttribute="height" id="CdD-Mb-NuI"/>
-                            <constraint firstItem="DWu-SM-9aL" firstAttribute="leading" secondItem="O4v-If-oxH" secondAttribute="leadingMargin" constant="8" id="FQI-Wf-cb9"/>
-                            <constraint firstItem="4tl-Df-lqh" firstAttribute="height" secondItem="lmr-iF-dbo" secondAttribute="height" id="HQT-kY-zDa"/>
-                            <constraint firstAttribute="trailing" secondItem="cyi-Wc-4jc" secondAttribute="trailing" id="Jlf-Uc-tdD"/>
-                            <constraint firstItem="4tl-Df-lqh" firstAttribute="leading" secondItem="lmr-iF-dbo" secondAttribute="trailing" constant="8" id="LdS-Ne-xfa"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="DWu-SM-9aL" secondAttribute="trailing" constant="8" id="RXG-jc-6iO"/>
-                            <constraint firstItem="tJd-D6-uhs" firstAttribute="top" secondItem="DWu-SM-9aL" secondAttribute="bottom" constant="7.5" id="Uan-pb-gpF"/>
-                            <constraint firstItem="cyi-Wc-4jc" firstAttribute="leading" secondItem="4tl-Df-lqh" secondAttribute="trailing" constant="8" id="Uzk-hP-b1n"/>
-                            <constraint firstItem="lmr-iF-dbo" firstAttribute="top" secondItem="HWe-DY-UOa" secondAttribute="bottom" constant="8" id="a8X-s2-MTV"/>
-                            <constraint firstItem="ENa-PX-nHq" firstAttribute="top" secondItem="drf-UP-fSn" secondAttribute="bottom" id="dNx-00-dFw"/>
-                            <constraint firstAttribute="trailing" secondItem="drf-UP-fSn" secondAttribute="trailing" constant="8" id="eCR-UX-UaT"/>
-                            <constraint firstItem="4tl-Df-lqh" firstAttribute="top" secondItem="HWe-DY-UOa" secondAttribute="bottom" constant="8" id="hmK-c1-chx"/>
-                            <constraint firstItem="lmr-iF-dbo" firstAttribute="leading" secondItem="O4v-If-oxH" secondAttribute="leading" id="nid-tP-NrP"/>
-                            <constraint firstItem="drf-UP-fSn" firstAttribute="top" secondItem="tJd-D6-uhs" secondAttribute="bottom" constant="8" id="pVf-4y-sYV"/>
-                            <constraint firstItem="tJd-D6-uhs" firstAttribute="leading" secondItem="O4v-If-oxH" secondAttribute="leading" constant="8" id="rOK-IX-biO"/>
-                            <constraint firstItem="4tl-Df-lqh" firstAttribute="height" secondItem="lmr-iF-dbo" secondAttribute="height" id="sNA-Qn-6ui"/>
-                            <constraint firstItem="DWu-SM-9aL" firstAttribute="top" secondItem="4tl-Df-lqh" secondAttribute="bottom" constant="8" id="tus-0c-vtO"/>
-                            <constraint firstItem="cyi-Wc-4jc" firstAttribute="bottom" secondItem="4tl-Df-lqh" secondAttribute="bottom" id="zQo-Lw-4hB"/>
-                        </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="yQ6-wb-SZN" appends="YES" id="8Sj-Qe-ReO"/>
-                        </connections>
-                    </view>
-                    <connections>
-                        <outlet property="binImage" destination="cIb-VE-u9W" id="Dr3-2d-pUT"/>
-                        <outlet property="boltImage" destination="sG0-2A-vqC" id="ywn-mz-mz3"/>
-                        <outlet property="capacityNum" destination="Tbj-gZ-7bA" id="hRI-Te-XPF"/>
-                        <outlet property="deleteImage" destination="b3f-Ic-Uwi" id="ioo-iG-X7w"/>
-                        <outlet property="happinessImage" destination="OXh-s4-ZSe" id="AcZ-VU-z7d"/>
-                        <outlet property="happinessNum" destination="rW8-Q0-u5j" id="g0d-we-B09"/>
-                        <outlet property="healthNum" destination="fsa-kY-ba0" id="lir-IR-PO7"/>
-                        <outlet property="heartImage" destination="WRh-MO-cLQ" id="O3s-6j-j54"/>
-                        <outlet property="insertImage" destination="ciV-xB-MNk" id="Mgk-uy-c0K"/>
-                        <outlet property="instCount1" destination="h4k-cW-iEF" id="bLz-Ql-ajb"/>
-                        <outlet property="instCount2" destination="xoC-dA-b2q" id="AKW-Ou-noq"/>
-                        <outlet property="instCount3" destination="z3o-1x-qTL" id="hsl-Aq-e3l"/>
-                        <outlet property="instImage1" destination="cdq-6D-f8d" id="OY1-ZT-mVm"/>
-                        <outlet property="instImage2" destination="ebB-9P-SCn" id="cuy-P9-vRy"/>
-                        <outlet property="instImage3" destination="Gfs-LT-dnD" id="5pb-wa-10C"/>
-                        <outlet property="playButton" destination="eCP-zQ-0qP" id="Du1-Gv-ThZ"/>
-                        <outlet property="power1View" destination="2gk-h9-Woa" id="uEc-va-UUc"/>
-                        <outlet property="quitButton" destination="4NY-eU-HI4" id="dO9-vs-m69"/>
-                        <outlet property="resetButton" destination="99U-pe-JU1" id="0ms-NF-AxZ"/>
-                        <outlet property="selRobot1" destination="TVn-IY-LXg" id="UIF-wh-UvX"/>
-                        <outlet property="selRobot2" destination="ePs-31-lB9" id="1QJ-2I-Bt6"/>
-                        <outlet property="selRobot3" destination="BYJ-qJ-b03" id="21C-a9-Zog"/>
-                        <outlet property="selRobot4" destination="dee-LO-TRp" id="VG1-WW-dlm"/>
-                        <outlet property="selRobot5" destination="osF-G0-HVu" id="ZyR-z0-K6y"/>
-                        <outlet property="tabview" destination="drf-UP-fSn" id="aQ4-Iw-mYU"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nAW-na-Fck" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.10000000000000001" id="ICa-Dd-75M">
-                    <connections>
-                        <action selector="selectInst:" destination="lTo-iD-DJc" id="G9e-x2-Zyh"/>
-                    </connections>
-                </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.10000000000000001" id="U9i-9R-dBv">
-                    <connections>
-                        <action selector="selectInst:" destination="lTo-iD-DJc" id="NXI-BL-KIZ"/>
-                    </connections>
-                </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.10000000000000001" id="abN-JW-ByS">
-                    <connections>
-                        <action selector="selectInst:" destination="lTo-iD-DJc" id="ZNA-4Z-pLX"/>
-                    </connections>
-                </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.20000000000000001" id="yQ6-wb-SZN">
-                    <connections>
-                        <action selector="dragTable:" destination="lTo-iD-DJc" id="749-0e-4xP"/>
-                    </connections>
-                </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.10000000000000001" id="wCe-3q-N4c">
-                    <connections>
-                        <action selector="selectInst:" destination="lTo-iD-DJc" id="Auc-oh-GKo"/>
-                    </connections>
-                </pongPressGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.10000000000000001" id="HZQ-Io-Bkf">
-                    <connections>
-                        <action selector="selectInst:" destination="lTo-iD-DJc" id="Ai9-lu-9SU"/>
-                    </connections>
-                </pongPressGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="1004" y="2277"/>
         </scene>
         <!--Initial Play Controller-->
         <scene sceneID="SEe-la-GcY">
@@ -1879,10 +1497,17 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="II5-T6-qHg">
-                                        <rect key="frame" x="0.0" y="122" width="40" height="40"/>
+                                        <rect key="frame" x="0.0" y="61" width="40" height="40"/>
                                         <state key="normal" title="Button" image="reset"/>
                                         <connections>
                                             <action selector="pressReset:" destination="k4B-j2-vwc" eventType="touchUpInside" id="fPD-Et-2Qq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqc-rZ-46y">
+                                        <rect key="frame" x="0.0" y="122.5" width="40" height="100"/>
+                                        <state key="normal" title="Button" image="hintImage"/>
+                                        <connections>
+                                            <action selector="pressHint:" destination="k4B-j2-vwc" eventType="touchUpInside" id="JXm-gn-KuQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5F-F0-sqj">
@@ -2016,6 +1641,7 @@
                         <outlet property="happinessNum" destination="4T9-Xn-kEa" id="tw4-ew-rw8"/>
                         <outlet property="healthNum" destination="No8-O7-LmF" id="CW6-w5-OHE"/>
                         <outlet property="heartImage" destination="Sqs-Jm-E3I" id="gCo-4w-38k"/>
+                        <outlet property="hintButton" destination="Lqc-rZ-46y" id="7Tl-tH-2cp"/>
                         <outlet property="insertImage" destination="6bY-kk-cvE" id="CfY-re-2S1"/>
                         <outlet property="instCount1" destination="WLd-ZT-Dgd" id="efc-7n-5Lk"/>
                         <outlet property="instCount2" destination="5go-5a-HY7" id="NiP-LD-l9l"/>
@@ -2375,6 +2001,7 @@
         <image name="deleteimage" width="40" height="40"/>
         <image name="happyImage" width="40" height="40"/>
         <image name="heartImage" width="40" height="40"/>
+        <image name="hintImage" width="100" height="100"/>
         <image name="insertimage" width="40" height="40"/>
         <image name="leftImage" width="40" height="40"/>
         <image name="noentryImage" width="40" height="40"/>
@@ -2384,6 +2011,7 @@
         <image name="reset" width="40" height="40"/>
         <image name="rightImage" width="40" height="40"/>
         <image name="robotImage" width="40" height="40"/>
+        <image name="splashbackdrop" width="800" height="300"/>
         <image name="stopwatch" width="40" height="40"/>
         <image name="wrenchImage" width="40" height="40"/>
     </resources>
